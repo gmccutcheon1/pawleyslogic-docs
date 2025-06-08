@@ -1,0 +1,12 @@
+site_name: Pawleys Logic Documentation
+theme:
+  name: material
+  palette:
+    primary: blue
+    accent: light blue
+
+nav:
+  - Home: index.md
+  - CasTemp Wireless Parser:
+      - User Guide: instruments/HEN_CTWE5Parser_CLX34_UserGuide.md
+

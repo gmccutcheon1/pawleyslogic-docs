@@ -1,0 +1,12 @@
+site_name: Pawleys Logic Docs
+
+theme:
+  name: material
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Instruments:
+      - CasTemp: instruments/castemp.md
+      - CTW5 AOI User Guide: instruments/HEN_CTWE5Parser_CLX34_UserGuide.md
+
