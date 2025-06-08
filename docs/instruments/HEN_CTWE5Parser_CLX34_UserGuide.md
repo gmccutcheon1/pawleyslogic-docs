@@ -40,13 +40,13 @@ The AOI:
 
 
 
-<img src="../images/Instruments/ctw5_aoi_import/aoi_import_file_selection.png" alt="..." width="75%">
+<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/aoi_import_file_selection.png" alt="..." width="75%">
 <br>
 <br>
 
 5. Click OK on the Import Configuration window.
 
-<img src="../images/Instruments/ctw5_aoi_import/aoi_import_file_configuration.png" alt="..." width="75%">
+<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/aoi_import_file_configuration.png" alt="..." width="75%">
 <br>
 <br>
 
@@ -60,7 +60,7 @@ After importing:
 
 
 
-<img src="../images/Instruments/ctw5_aoi_import/aoi_successful_import.png" alt="..." width="35%">
+<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/aoi_successful_import.png" alt="..." width="35%">
 <br>
 <br>
 
@@ -74,26 +74,26 @@ After importing:
 2. Right-click the Rung and select **Add Rung** (or reuse an existing one).
 
 
-<img src="../images/Instruments/ctw5_aoi_import/ladder_create_rung.png" alt="..." width="55%">
+<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/ladder_create_rung.png" alt="..." width="55%">
 <br>
 <br>
 
 
-<img src="../images/Instruments/ctw5_aoi_import/ladder_created_rung.png" alt="..." width="65%">
+<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/ladder_created_rung.png" alt="..." width="65%">
 <br>
 <br>
 
 ### - Insert the AOI into a Rung
 1. Select the Add-On tab on the instructions bar.
 
-<img src="../images/Instruments/ctw5_aoi_import/ladder_aio_tab.png" alt="..." width="85%">
+<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/ladder_aio_tab.png" alt="..." width="85%">
 <br>
 <br>
 
 2. Drag `HEN_CTWE5Parser_CLX34` from the Instruction toolbar or right-click to insert.
 
 
-<img src="../images/Instruments/ctw5_aoi_import/ladder_drag_aoi.png" alt="..." width="85%">
+<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/ladder_drag_aoi.png" alt="..." width="85%">
 <br>
 <br>
 
@@ -119,19 +119,19 @@ After importing:
 
 1. Enter a tag name into the HEN_CTWE5Parser_CLX34 field of the AOI (e.g., CTW5Parser1).
 
-<img src="../images/Instruments/ctw5_aoi_import/aoi_populate_HEN_CTWE5Parser_CLX34.png" alt="..." width="50%">
+<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/aoi_populate_HEN_CTWE5Parser_CLX34.png" alt="..." width="50%">
 <br>
 <br>
 
 
 2.Right-click and define the new tag using the default settings.
 
-<img src="../images/Instruments/ctw5_aoi_import/aoi_define_CTW5Parser1_new.png" alt="..." width="70%">
+<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/aoi_define_CTW5Parser1_new.png" alt="..." width="70%">
 <br>
 <br>
 
 
-<img src="../images/Instruments/ctw5_aoi_import/aoi_define_CTW5Parser1_create.png" alt="..." width="70%">
+<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/aoi_define_CTW5Parser1_create.png" alt="..." width="70%">
 <br>
 <br>
 <br>
@@ -142,17 +142,17 @@ After importing:
 
 1. Enter a tag name into the CTW5Results field of the AOI (e.g., CTW5).
 
-<img src="../images/Instruments/ctw5_aoi_import/aoi_populate_CTW5.png" alt="..." width="50%">
+<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/aoi_populate_CTW5.png" alt="..." width="50%">
 <br>
 <br>
 
 2. Right-click and define the new tag using the default settings. In this case it is UDT type "CTW5ResultsDataSet".
 
-	<img src="../images/Instruments/ctw5_aoi_import/aoi_define_CTW5_new.png" alt="..." width="65%">
+	<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/aoi_define_CTW5_new.png" alt="..." width="65%">
 	<br>
 	<br>
 
-	<img src="../images/Instruments/ctw5_aoi_import/aoi_define_CTW5_create.png" alt="..." width="45%">
+	<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/aoi_define_CTW5_create.png" alt="..." width="45%">
 	<br>
 	<br>
 <br>
@@ -163,13 +163,13 @@ After importing:
 1. Note the name of the EIP communication module connection to the CTW5 device. In this case it is "CTW5SINT".
 	
 
-	<img src="../images/Instruments/ctw5_aoi_import/aoi_eip_module_name.png" alt="..." width="45%">
+	<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/aoi_eip_module_name.png" alt="..." width="45%">
 	<br>
 	<br>
 
 2. Select the I:Data array from the CTW5Inputs dropdown list that matches the name of the EIP communications module connected to the CTW5 instrument. 
 
-	<img src="../images/Instruments/ctw5_aoi_import/aoi_populate_ctw5inputs.png" alt="..." width="70%">
+	<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/aoi_populate_ctw5inputs.png" alt="..." width="70%">
 	<br>
 	<br>
 
@@ -180,11 +180,11 @@ After importing:
 1. From the CTW5ModuleFaulted dropdown list, select the I:ConnectionFaulted Boolean that corresponds to the EIP communications module connected to the CTW5 instrument.
 NOTE: If a Generic Ethernet Module is used, this field can be set to 0, as the I:ConnectionFaulted value is not available in that case.
 
-	<img src="../images/Instruments/ctw5_aoi_import/aoi_populate_modulefaulted.png" alt="..." width="70%">
+	<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/aoi_populate_modulefaulted.png" alt="..." width="70%">
 	<br>
 	<br>
 	
-	<img src="../images/Instruments/ctw5_aoi_import/aoi_populated_parameters.png" alt="..." width="70%">
+	<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/aoi_populated_parameters.png" alt="..." width="70%">
 	<br>
 	<br>	
 
@@ -213,14 +213,14 @@ The AOI populates values such as:
 1. With Studio5000 online with the PLC, right-click the tag in the AOI’s CTW5Results field and select Monitor.
 In this example, the tag name is 'CTW5'.
 
-	<img src="../images/Instruments/ctw5_aoi_import/aoi_monitor_menu.png" alt="..." width="55%">
+	<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/aoi_monitor_menu.png" alt="..." width="55%">
 	<br>
 	<br>
 
 
 2. This will open the Controller Tags window, where the values can be viewed updating in real time. 
 
-	<img src="../images/Instruments/ctw5_aoi_import/aoi_monitor_tags.png" alt="..." width="90%">
+	<img src="/pawleyslogic-docs/images/Instruments/ctw5_aoi_import/aoi_monitor_tags.png" alt="..." width="90%">
 	<br>
 	<br>
 
