@@ -30,7 +30,7 @@ The AOI:
 2. Navigate to **Controller Organizer** > **Add-On Instructions**.
 3. Right-click and select **Import Add-On Instruction**.
 	<!--![AOI Import](\images\Instruments\ctw5_aoi_import\aoi_import_menu.png) -->
-<img src="images/Instruments/ctw5_aoi_import/aoi_import_menu.png" alt="..." width="50%" >
+<img src="../docs/images/Instruments/ctw5_aoi_import/aoi_import_menu.png" alt="..." width="50%" >
 
 <br>
 <br>
