@@ -9,23 +9,33 @@ theme:
 
 
 
+
 nav:
   - Home: index.md
   - CasTmp Wireless E5 (CTWE5):
       - CTWE5 Add-On User Guide : instruments/HEN_CTWE5Parser_CLX34_UserGuide.md
-  - Downloads :
-      - CastTemp Wireless :
-         - CTW ControlLogix/CompactLogix Add-On Instruction v34 : downloads/ctw/CTWReadAssembler_CLX34_AOI.zip
-         - CTW ControlLogix/CompactLogix Add-On Instruction v32 : downloads/ctw/CTWReadAssembler_CLX32_AOI.zip
-      - CastTemp Wireless E5 :
-         - CTWE5 Add-On User Guide : downloads/ctw5/HEN_CTWE5Parser_CLX34_UserGuide.pdf         
-      - EDS Files :         
-         - Anybus CompactCom M40 EDS File : downloads/eds/m40/005A002B00370100.zip
-         - Anybus CompactCom M30 EDS File : downloads/eds/m30/005A0000002E0100.zip
+  - Downloads : downloads/Downloads.md
+
+
+
+
       
       
 features:
   - navigation.tabs
+
+
+
+
+markdown_extensions:
+  - admonition
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
+
+
+
 
     
 extra:
