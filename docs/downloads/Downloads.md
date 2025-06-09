@@ -7,7 +7,7 @@
 Documents  
 
 <span style="display: block; margin-left: 3em; font-weight: regular; font-size: 1.1em;"> 
-[CasTemp Wireless CTWReadAssembler_CLX3x AOI Setup and Use Rev1 (PDF)](/downloads/ctw5/CasTemp Wireless CTWReadAssembler_CLX3x AOI Setup and Use Rev1.pdf)  
+[CasTemp Wireless CTWReadAssembler_CLX3x AOI Setup and Use Rev1 (PDF)](/downloads/ctw/CasTemp Wireless CTWReadAssembler_CLX3x AOI Setup and Use Rev1.pdf)  
 
 </span>
 </span>
@@ -49,17 +49,48 @@ Rockwell EDS Files
 ---
 
 
----
-
-
 
 
 
 ## CasTemp Wireless E5 Related :
 
-- CTWE5 Add-On User Guide : downloads/ctw5/HEN_CTWE5Parser_CLX34_UserGuide.pdf 
-- Anybus CompactCom M40 EDS File : downloads/eds/m40/005A002B00370100.zip
+<span style="display: block; margin-left: 1em; font-weight: regular; font-size: 1.25em;">
+Documents
+
+   <span style="display: block; margin-left: 2em; font-weight: regular; font-size: 1.1em;">
+   The HEN_CTWE5Parser_CLX34 is a Studio5000 Add-On Instruction designed for CompactLogix and ControlLogix controllers (v34 firmware).  
+   It parses the Ethernet/IP input data from the Heraeus CasTemp Wireless E5 (CTW5) instrument. Parsed values include process measurements, diagnostics, and metadata from the wireless QUBE module.  
+   This document provides detailed setup, configuration, and usage instructions for installing and using the AOI in a ControlLogix/CompactLogix project.  
+   </span>   
+   
+   <span style="display: block; margin-left: 3em; font-weight: regular; font-size: 1.1em;">
+  [CTWE5 Add-On User Guide (PDF)](/downloads/ctw5/HEN_CTWE5Parser_CLX34_UserGuide.pdf)  
+  
+   </span>
+   
+</span>
+
+<span style="display: block; margin-left: 1em; font-weight: regular; font-size: 1.25em;">
+Rockwell EDS Files
+
+   <span style="display: block; margin-left: 2em; font-weight: regular; font-size: 1.1em;">
+   The CTW E5 units utilize the M40 modules for EIP communication.  
+ 
+   </span>   
+   
+   <span style="display: block; margin-left: 3em; font-weight: regular; font-size: 1.1em;">
+  [Anybus CompactCom M40 EDS File (zip)](/downloads/ctw5/HEN_CTWE5Parser_CLX34_UserGuide.pdf)  
+  
+   </span>
+   
+</span>
+
+
+
 ---
+
+
+<!-- Begin CommentBlock
 
 ## IM2 / SensorLab Steel Related :
 
@@ -126,3 +157,4 @@ Rockwell EDS Files
 ---
 
 
+End Comment Block -->
