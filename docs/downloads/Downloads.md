@@ -90,14 +90,26 @@ Rockwell EDS Files
 ---
 
 
-<!-- Begin CommentBlock
+
 
 ## IM2 / SensorLab Steel Related :
 
-📄 [Download HEN_CTWE5Parser_CLX34 AOI User Guide (PDF)](/downloads/ctw5/HEN_CTWE5Parser_CLX34_UserGuide.pdf)
+<span style="display: block; margin-left: 1em; font-weight: regular; font-size: 1.25em;">
+Documents
+
+   <span style="display: block; margin-left: 3em; font-weight: regular; font-size: 1.1em;">
+  [Set up SLS for Output Registers to ProfiNet User Guide (PDF)](/downloads/sls/set_up_sls_for_profinet_output_registers.pdf)  
+  
+   </span>
+   
+</span>
+
+
+
+
 
 ---
-
+<!-- Begin CommentBlock
 ## Hydris / HydroVAS Related :
 
 📄 [Download HEN_CTWE5Parser_CLX34 AOI User Guide (PDF)](/downloads/ctw5/HEN_CTWE5Parser_CLX34_UserGuide.pdf)
