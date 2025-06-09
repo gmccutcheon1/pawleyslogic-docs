@@ -1,4 +1,4 @@
-site_name: Pawleys Logic Documentation
+site_name: Pawleys Logic* Heraeus Electro-Nite Downloads and Documentation
 theme:
   name: material
   palette:
@@ -7,6 +7,6 @@ theme:
 
 nav:
   - Home: index.md
-  - CasTemp Wireless Parser:
-      - User Guide: instruments/HEN_CTWE5Parser_CLX34_UserGuide.md
+  - CasTmp Wireless E5 (CTWE5):
+      - CTWE5 Add-On User Guide : instruments/HEN_CTWE5Parser_CLX34_UserGuide.md
 

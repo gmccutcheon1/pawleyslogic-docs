@@ -1,11 +1,12 @@
 # HEN_CTWE5Parser_CLX34 Add-On Instruction (AOI) User Guide
-
+📄 [Download HEN_CTWE5Parser_CLX34 AOI User Guide (PDF)](../downloads/HEN_CTWE5Parser_CLX34_UserGuide.pdf)
 ## Overview
 The `HEN_CTWE5Parser_CLX34` is a Studio5000 Add-On Instruction designed for CompactLogix and ControlLogix  controllers (v34 firmware). It parses the Ethernet/IP input data from the Heraeus CasTemp Wireless E5 (CTW5) instrument. Parsed values include process measurements, diagnostics, and metadata from the wireless QUBE module.
 
 This document provides detailed setup, configuration, and usage instructions for installing and using the AOI in a CompactLogix project.
 
 ---
+
 
 
 
@@ -184,7 +185,7 @@ NOTE: If a Generic Ethernet Module is used, this field can be set to 0, as the I
 	<br>
 	<br>
 	
-	<img src="/images/ctw5_aoi_import/aoi_populated_parameters.png" alt="..." width="70%">
+	<img src="/images/ctw5_aoi_import/aoi_populated_parameters.png" alt="..." width="55%">
 	<br>
 	<br>	
 
