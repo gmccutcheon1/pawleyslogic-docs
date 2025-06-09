@@ -1,0 +1,18 @@
+site_name: Pawleys Logic* Heraeus Electro-Nite Downloads and Documentation
+site_url: https://pawleyslogic.com
+theme:
+  name: material
+  palette:
+    - scheme: slate  # dark base
+      primary: deep orange
+      accent: amber
+
+
+nav:
+  - Home: index.md
+  - CasTmp Wireless E5 (CTWE5):
+      - CTWE5 Add-On User Guide : instruments/HEN_CTWE5Parser_CLX34_UserGuide.md
+      
+extra:
+  include_cname: true
+
