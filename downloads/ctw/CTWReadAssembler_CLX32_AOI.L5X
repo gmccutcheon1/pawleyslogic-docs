@@ -1,0 +1,505 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="32.11" TargetName="CTWReadAssembler_CLX32" TargetType="AddOnInstructionDefinition" TargetRevision="2.6 " TargetLastEdited="2024-11-06T19:31:57.831Z" ContainsContext="true" ExportDate="Wed Nov 06 14:32:29 2024" ExportOptions="References NoRawData L5KData DecoratedData Context Dependencies ForceProtectedEncoding AllProjDocTrans">
+<Controller Use="Context" Name="CasTemp_AOI_EDS">
+<DataTypes Use="Context">
+<DataType Name="CTWResults" Family="NoFamily" Class="User">
+<Members>
+<Member Name="DateTime" DataType="STRING" Dimension="0" Radix="NullType" Hidden="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Date time value]]>
+</Description>
+</Member>
+<Member Name="Heatnumber" DataType="STRING" Dimension="0" Radix="NullType" Hidden="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Current heat number]]>
+</Description>
+</Member>
+<Member Name="InstrumentName" DataType="STRING" Dimension="0" Radix="NullType" Hidden="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[The name of the instrument as it is configured in the
+settings]]>
+</Description>
+</Member>
+<Member Name="Temperature" DataType="REAL" Dimension="0" Radix="Float" Hidden="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Temperature Value]]>
+</Description>
+</Member>
+<Member Name="QUBE_ID" DataType="STRING" Dimension="0" Radix="NullType" Hidden="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Unique ID of module connected to CTW]]>
+</Description>
+</Member>
+<Member Name="QUBE_CJTemp" DataType="REAL" Dimension="0" Radix="Float" Hidden="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Cold Junction temperature]]>
+</Description>
+</Member>
+<Member Name="QUBE_Charge" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[0 to 100% battery charge]]>
+</Description>
+</Member>
+<Member Name="QUBE_RFSignal" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[0 to 100% connection strength]]>
+</Description>
+</Member>
+<Member Name="ZZZZZZZZZZCTWResults8" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="true" ExternalAccess="Read/Write"/>
+<Member Name="ERR_OpenCircuit" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZCTWResults8" BitNumber="0" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[CTW is open circuit]]>
+</Description>
+</Member>
+<Member Name="ERR_CJHighTemp" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZCTWResults8" BitNumber="1" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[CTW cold junction temperature > 85 °C]]>
+</Description>
+</Member>
+<Member Name="ERR_LostTransmission" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZCTWResults8" BitNumber="2" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[CTW Lost Transmission]]>
+</Description>
+</Member>
+<Member Name="ERR_LowBattCharge" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZCTWResults8" BitNumber="3" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[CTW Battery < 1-%]]>
+</Description>
+</Member>
+<Member Name="ERR_LowSignal" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZCTWResults8" BitNumber="4" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[CTW Signal strength < 40dB]]>
+</Description>
+</Member>
+<Member Name="ERR_NotPaired" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZCTWResults8" BitNumber="5" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[CTW Not Paired]]>
+</Description>
+</Member>
+<Member Name="ModuleFaultDetected" DataType="BIT" Dimension="0" Radix="Decimal" Hidden="false" Target="ZZZZZZZZZZCTWResults8" BitNumber="6" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Comms Module to CTW Fault]]>
+</Description>
+</Member>
+<Member Name="CasTipLiquidous" DataType="REAL" Dimension="0" Radix="Float" Hidden="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[CasTip liquidus value]]>
+</Description>
+</Member>
+<Member Name="CasTipQUBE_Charge" DataType="SINT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[0 to 100% battery charge]]>
+</Description>
+</Member>
+<Member Name="LadleEmptyTime" DataType="STRING" Dimension="0" Radix="NullType" Hidden="false" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Estimate of when the ladle will
+empty]]>
+</Description>
+</Member>
+</Members>
+</DataType>
+</DataTypes>
+<AddOnInstructionDefinitions Use="Context">
+<AddOnInstructionDefinition Use="Target" Name="CTWReadAssembler_CLX32" Revision="2.6" ExecutePrescan="false" ExecutePostscan="false" ExecuteEnableInFalse="false" CreatedDate="2024-09-03T13:48:29.311Z" CreatedBy="owner\gmccutcheon" EditedDate="2024-11-06T19:31:57.831Z" EditedBy="owner\gmccutcheon" SoftwareRevision="v32.11"
+>
+<RevisionNote>
+<![CDATA[Changed CTWModule Faulted from InOut to Input Reg_Vis]]>
+</RevisionNote>
+<Parameters>
+<Parameter Name="EnableIn" TagType="Base" DataType="BOOL" Usage="Input" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read Only">
+<Description>
+<![CDATA[Enable Input - System Defined Parameter]]>
+</Description>
+</Parameter>
+<Parameter Name="EnableOut" TagType="Base" DataType="BOOL" Usage="Output" Radix="Decimal" Required="false" Visible="false" ExternalAccess="Read Only">
+<Description>
+<![CDATA[Enable Output - System Defined Parameter]]>
+</Description>
+</Parameter>
+<Parameter Name="CTWInputs" TagType="Base" DataType="SINT" Dimensions="128" Usage="InOut" Radix="Decimal" Required="true" Visible="true" Constant="false">
+<Description>
+<![CDATA[Input Array From CTW]]>
+</Description>
+</Parameter>
+<Parameter Name="CTWResults" TagType="Base" DataType="CTWResults" Usage="InOut" Required="true" Visible="true" Constant="false">
+<Description>
+<![CDATA[Result data from CasTemp Instrument]]>
+</Description>
+</Parameter>
+<Parameter Name="CTWModuleFaulted" TagType="Base" DataType="BOOL" Usage="Input" Radix="Decimal" Required="true" Visible="true" ExternalAccess="Read/Write">
+<Description>
+<![CDATA[Module Faulted input for instance: CTW:I.ConnectionFaulted]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</Parameter>
+</Parameters>
+<LocalTags>
+<LocalTag Name="OkToParse" DataType="BOOL" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="ERRVAL_MINUS999" DataType="DINT" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="Empty_String" DataType="STRING" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00']]]>
+</DefaultData>
+<DefaultData Format="String" Length="0">
+<![CDATA['']]>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="strAux" DataType="STRING" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00']]]>
+</DefaultData>
+<DefaultData Format="String" Length="0">
+<![CDATA['']]>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="DateTime" DataType="DINT" Dimensions="7" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[[0,0,0,0,0,0,0]]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<Array DataType="DINT" Dimensions="7" Radix="Decimal">
+<Element Index="[0]" Value="0"/>
+<Element Index="[1]" Value="0"/>
+<Element Index="[2]" Value="0"/>
+<Element Index="[3]" Value="0"/>
+<Element Index="[4]" Value="0"/>
+<Element Index="[5]" Value="0"/>
+<Element Index="[6]" Value="0"/>
+</Array>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="SYS_One_Second_OS" DataType="BOOL" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="PLC_DateTime_Str" DataType="STRING" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00']]]>
+</DefaultData>
+<DefaultData Format="String" Length="0">
+<![CDATA['']]>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="STR_FWD_SLASH" DataType="STRING" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[[1,'/$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00']]]>
+</DefaultData>
+<DefaultData Format="String" Length="1">
+<![CDATA['/']]>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="Temp_String" DataType="STRING" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00']]]>
+</DefaultData>
+<DefaultData Format="String" Length="0">
+<![CDATA['']]>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="STR_SPACE" DataType="STRING" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[[1,' $00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00']]]>
+</DefaultData>
+<DefaultData Format="String" Length="1">
+<![CDATA[' ']]>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="STR_COLON" DataType="STRING" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[[0,'$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00']]]>
+</DefaultData>
+<DefaultData Format="String" Length="0">
+<![CDATA['']]>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="STR_ZERO" DataType="STRING" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[[1,'0$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00$00']]]>
+</DefaultData>
+<DefaultData Format="String" Length="1">
+<![CDATA['0']]>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="PrevSecond" DataType="DINT" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="OneShots" DataType="INT" Dimensions="2" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[[0,0]]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<Array DataType="INT" Dimensions="2" Radix="Decimal">
+<Element Index="[0]" Value="0"/>
+<Element Index="[1]" Value="0"/>
+</Array>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="ERRVAL_ZERO" DataType="DINT" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="DINT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="INPUT_HEADER_OFFSET" DataType="INT" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="INT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="QUBE_ID_OFFSET" DataType="INT" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="INT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="TEMPERATURE_OFFSET" DataType="INT" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="INT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="QCHARGE_OFFSET" DataType="INT" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="INT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="ERR_PRESENT_OFFSET" DataType="INT" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="INT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="QRF_OFFSET" DataType="INT" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="INT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="LIQTEMP_OFFSET" DataType="INT" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="INT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="LADLE_EMPTY_OFFSET" DataType="INT" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="INT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="CJTEMP_OFFSET" DataType="INT" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="INT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="HEATNUM_OFFSET" DataType="INT" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="INT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="INSTR_NAME_OFFSET" DataType="INT" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="INT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="CTIP_QCHARGE_OFFSET" DataType="INT" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="INT" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="InitConstants" DataType="BOOL" Radix="Decimal" ExternalAccess="None">
+<Description>
+<![CDATA[First scan after enable in]]>
+</Description>
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+<LocalTag Name="ConstantsInitialized" DataType="BOOL" Radix="Decimal" ExternalAccess="None">
+<DefaultData Format="L5K">
+<![CDATA[0]]>
+</DefaultData>
+<DefaultData Format="Decorated">
+<DataValue DataType="BOOL" Radix="Decimal" Value="0"/>
+</DefaultData>
+</LocalTag>
+</LocalTags>
+<Routines>
+<Routine Name="Logic" Type="RLL">
+<RLLContent>
+<Rung Number="0" Type="N">
+<Text>
+<![CDATA[NOP();]]>
+</Text>
+</Rung>
+<Rung Number="1" Type="N">
+<Comment>
+<![CDATA[Build Clock]]>
+</Comment>
+<Text>
+<![CDATA[GSV(WallClockTime,,LocalDateTime,DateTime[0]);]]>
+</Text>
+</Rung>
+<Rung Number="2" Type="N">
+<Text>
+<![CDATA[NEQ(DateTime[5],PrevSecond)ONS(OneShots[0].0)[OTE(SYS_One_Second_OS) ,MOV(DateTime[5],PrevSecond) ];]]>
+</Text>
+</Rung>
+<Rung Number="3" Type="N">
+<Text>
+<![CDATA[XIC(SYS_One_Second_OS)[COP(Empty_String,PLC_DateTime_Str,1) ,LES(DateTime[1],10) COP(STR_ZERO,PLC_DateTime_Str,1) ,DTOS(DateTime[1],Temp_String) CONCAT(PLC_DateTime_Str,Temp_String,PLC_DateTime_Str) CONCAT(PLC_DateTime_Str,STR_FWD_SLASH,PLC_DateTime_Str) ,LES(DateTime[2],10) CONCAT(PLC_DateTime_Str,STR_ZERO,PLC_DateTime_Str) ,DTOS(DateTime[2],Temp_String) CONCAT(PLC_DateTime_Str,Temp_String,PLC_DateTime_Str) CONCAT(PLC_DateTime_Str,STR_FWD_SLASH,PLC_DateTime_Str) ,DTOS(DateTime[0],Temp_String) CONCAT(PLC_DateTime_Str,Temp_String,PLC_DateTime_Str) CONCAT(PLC_DateTime_Str,STR_SPACE,PLC_DateTime_Str) ,LES(DateTime[3],10) CONCAT(PLC_DateTime_Str,STR_ZERO,PLC_DateTime_Str) ,DTOS(DateTime[3],Temp_String) CONCAT(PLC_DateTime_Str,Temp_String,PLC_DateTime_Str) CONCAT(PLC_DateTime_Str,STR_COLON,PLC_DateTime_Str) ,LES(DateTime[4],10) CONCAT(PLC_DateTime_Str,STR_ZERO,PLC_DateTime_Str) ,DTOS(DateTime[4],Temp_String) CONCAT(PLC_DateTime_Str,Temp_String,PLC_DateTime_Str) CONCAT(PLC_DateTime_Str,STR_COLON,PLC_DateTime_Str) ,LES(DateTime[5],10) CONCAT(PLC_DateTime_Str,STR_ZERO,PLC_DateTime_Str) ,DTOS(DateTime[5],Temp_String) CONCAT(PLC_DateTime_Str,Temp_String,PLC_DateTime_Str) ];]]>
+</Text>
+</Rung>
+<Rung Number="4" Type="N">
+<Text>
+<![CDATA[NOP();]]>
+</Text>
+</Rung>
+<Rung Number="5" Type="N">
+<Comment>
+<![CDATA[Stay on until instance is created and constants are all initialized]]>
+</Comment>
+<Text>
+<![CDATA[XIC(EnableIn)XIO(ConstantsInitialized)OTE(InitConstants);]]>
+</Text>
+</Rung>
+<Rung Number="6" Type="N">
+<Comment>
+<![CDATA[Define some constants]]>
+</Comment>
+<Text>
+<![CDATA[XIC(InitConstants)[MOV(-999,ERRVAL_MINUS999) ,MOV(0,ERRVAL_ZERO) ];]]>
+</Text>
+</Rung>
+<Rung Number="7" Type="N">
+<Text>
+<![CDATA[XIC(InitConstants)[MOV(16#3A,STR_COLON.DATA[0]) MOV(1,STR_COLON.LEN) ,MOV(16#2F,STR_FWD_SLASH.DATA[0]) MOV(1,STR_FWD_SLASH.LEN) ,MOV(16#20,STR_SPACE.DATA[0]) MOV(1,STR_SPACE.LEN) ,MOV(16#30,STR_ZERO.DATA[0]) MOV(1,STR_ZERO.LEN) ,MOV(0,Empty_String.LEN) ];]]>
+</Text>
+</Rung>
+<Rung Number="8" Type="N">
+<Comment>
+<![CDATA[Define Offsets
+]]>
+</Comment>
+<Text>
+<![CDATA[NOP();]]>
+</Text>
+</Rung>
+<Rung Number="9" Type="N">
+<Text>
+<![CDATA[XIC(InitConstants)[MOV(27,INPUT_HEADER_OFFSET) ,ADD(0,INPUT_HEADER_OFFSET,QUBE_ID_OFFSET) ADD(4,INPUT_HEADER_OFFSET,ERR_PRESENT_OFFSET) ADD(5,INPUT_HEADER_OFFSET,QCHARGE_OFFSET) ADD(9,INPUT_HEADER_OFFSET,CJTEMP_OFFSET) ,ADD(14,INPUT_HEADER_OFFSET,TEMPERATURE_OFFSET) ADD(20,INPUT_HEADER_OFFSET,QRF_OFFSET) ADD(23,INPUT_HEADER_OFFSET,LIQTEMP_OFFSET) ADD(29,INPUT_HEADER_OFFSET,CTIP_QCHARGE_OFFSET) ,ADD(33,INPUT_HEADER_OFFSET,HEATNUM_OFFSET) ADD(41,INPUT_HEADER_OFFSET,LADLE_EMPTY_OFFSET) ADD(49,INPUT_HEADER_OFFSET,INSTR_NAME_OFFSET) ,OTL(ConstantsInitialized) ];]]>
+</Text>
+</Rung>
+<Rung Number="10" Type="N">
+<Comment>
+<![CDATA[Begin Parsing]]>
+</Comment>
+<Text>
+<![CDATA[NOP();]]>
+</Text>
+</Rung>
+<Rung Number="11" Type="N">
+<Text>
+<![CDATA[[XIC(CTWInputs[ERR_PRESENT_OFFSET].0) OTE(CTWResults.ERR_OpenCircuit) ,XIC(CTWInputs[ERR_PRESENT_OFFSET].1) OTE(CTWResults.ERR_CJHighTemp) ,XIC(CTWInputs[ERR_PRESENT_OFFSET].2) OTE(CTWResults.ERR_LostTransmission) ,XIC(CTWInputs[ERR_PRESENT_OFFSET].3) OTE(CTWResults.ERR_LowBattCharge) ,XIC(CTWInputs[ERR_PRESENT_OFFSET].4) OTE(CTWResults.ERR_LowSignal) ,XIC(CTWInputs[ERR_PRESENT_OFFSET].6) OTE(CTWResults.ERR_NotPaired) ,XIC(CTWModuleFaulted) OTE(CTWResults.ModuleFaultDetected) ,XIO(CTWModuleFaulted) XIO(CTWResults.ERR_OpenCircuit) XIO(CTWResults.ERR_LostTransmission) XIO(CTWResults.ERR_NotPaired) OTE(OkToParse) ];]]>
+</Text>
+</Rung>
+<Rung Number="12" Type="N">
+<Text>
+<![CDATA[XIC(OkToParse)[COP(CTWInputs[QUBE_ID_OFFSET],CTWResults.QUBE_ID.DATA[0],4) MOV(4,CTWResults.QUBE_ID.LEN) ,COP(CTWInputs[HEATNUM_OFFSET],CTWResults.Heatnumber.DATA[0],8) MOV(8,CTWResults.Heatnumber.LEN) ,COP(CTWInputs[LADLE_EMPTY_OFFSET],CTWResults.LadleEmptyTime.DATA[0],8) MOV(8,CTWResults.LadleEmptyTime.LEN) ,COP(CTWInputs[INSTR_NAME_OFFSET],CTWResults.InstrumentName.DATA[0],11) MOV(11,CTWResults.InstrumentName.LEN) ,COP(PLC_DateTime_Str,CTWResults.DateTime,1) ];]]>
+</Text>
+</Rung>
+<Rung Number="13" Type="N">
+<Text>
+<![CDATA[XIC(OkToParse)[[COP(CTWInputs[QCHARGE_OFFSET],strAux.DATA[0],3) MOV(3,strAux.LEN) ,STOD(strAux,CTWResults.QUBE_Charge) ] ,[COP(CTWInputs[CJTEMP_OFFSET],strAux.DATA[0],5) MOV(5,strAux.LEN) ,STOR(strAux,CTWResults.QUBE_CJTemp) ] ,[COP(CTWInputs[TEMPERATURE_OFFSET],strAux.DATA[0],6) MOV(6,strAux.LEN) ,STOR(strAux,CTWResults.Temperature) ] ,[COP(CTWInputs[QRF_OFFSET],strAux.DATA[0],3) MOV(3,strAux.LEN) ,STOD(strAux,CTWResults.QUBE_RFSignal) ] ,[COP(CTWInputs[LIQTEMP_OFFSET],strAux.DATA[0],6) MOV(6,strAux.LEN) ,STOR(strAux,CTWResults.CasTipLiquidous) ] ,[COP(CTWInputs[CTIP_QCHARGE_OFFSET],strAux.DATA[0],3) MOV(3,strAux.LEN) ,STOD(strAux,CTWResults.CasTipQUBE_Charge) ] ];]]>
+</Text>
+</Rung>
+<Rung Number="14" Type="N">
+<Text>
+<![CDATA[XIO(OkToParse)[COP(Empty_String,CTWResults.QUBE_ID,1) ,COP(Empty_String,CTWResults.Heatnumber,1) ,COP(Empty_String,CTWResults.LadleEmptyTime,1) ,COP(Empty_String,CTWResults.InstrumentName,1) ];]]>
+</Text>
+</Rung>
+<Rung Number="15" Type="N">
+<Text>
+<![CDATA[XIO(OkToParse)[MOV(ERRVAL_MINUS999,CTWResults.Temperature) ,MOV(ERRVAL_MINUS999,CTWResults.QUBE_CJTemp) ,MOV(ERRVAL_MINUS999,CTWResults.CasTipLiquidous) ,MOV(ERRVAL_ZERO,CTWResults.QUBE_Charge) ,MOV(ERRVAL_ZERO,CTWResults.QUBE_RFSignal) ,MOV(ERRVAL_ZERO,CTWResults.CasTipQUBE_Charge) ];]]>
+</Text>
+</Rung>
+<Rung Number="16" Type="N">
+<Text>
+<![CDATA[NOP();]]>
+</Text>
+</Rung>
+</RLLContent>
+</Routine>
+</Routines>
+<Dependencies>
+<Dependency Type="DataType" Name="CTWResults"/>
+</Dependencies>
+</AddOnInstructionDefinition>
+</AddOnInstructionDefinitions>
+<WallClockTime Use="Reference">
+</WallClockTime>
+</Controller>
+</RSLogix5000Content>
