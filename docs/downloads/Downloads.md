@@ -22,7 +22,7 @@ AOIs
    </span>   
    
    <span style="display: block; margin-left: 3em; font-weight: regular; font-size: 1.1em;">
-  [CTW ControlLogix/CompactLogix Add-On Instruction v34(zip)](/downloads/ctw/CTWReadAssembler_CLX34_AOI.zip)
+  [CTW ControlLogix/CompactLogix Add-On Instruction v34(zip)](/downloads/ctw/CTWReadAssembler_CLX34_AOI.zip)  
   [CTW ControlLogix/CompactLogix Add-On Instruction v32(zip)](/downloads/ctw/CTWReadAssembler_CLX32_AOI.zip)
    </span>
 </span>
