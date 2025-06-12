@@ -122,7 +122,22 @@ Documents
 </span>
 
 
+</span>
 
+<span style="display: block; margin-left: 1em; font-weight: regular; font-size: 1.25em;">
+Rockwell EDS Files
+
+   <span style="display: block; margin-left: 2em; font-weight: regular; font-size: 1.1em;">
+   The CTW E5 units utilize the M40 modules for EIP communication.  
+ 
+   </span>   
+   
+   <span style="display: block; margin-left: 3em; font-weight: regular; font-size: 0.95em;  margin-bottom: 50px">
+  [Anybus CompactCom M40 EDS File (zip)](/downloads/ctw5/HEN_CTWE5Parser_CLX34_UserGuide.pdf)  
+  
+   </span>
+   
+</span>
 
 
 ---
