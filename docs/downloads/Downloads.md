@@ -115,7 +115,7 @@ Rockwell EDS Files
 Documents
 
    <span style="display: block; margin-left: 3em; font-weight: regular; font-size: 0.95em;  margin-bottom: 50px">
-  [Set up SLS for Output Registers to ProfiNet User Guide (PDF)](/downloads/sls/set_up_sls_for_profinet_output_registers.pdf)  
+  [Set up SLS for Output Registers to ProfiNet User Guide (PDF)](/downloads/sls/SensorLab Steel - PLC Setup for Generic EIP Module Integration.pdf)  
   
    </span>
    
