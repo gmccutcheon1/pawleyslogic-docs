@@ -1,17 +1,39 @@
-# Welcome to MkDocs
+# Welcome to Pawleys Logic
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+**Precision tools and integration guides for Heraeus Electro-Nite measurement systems**
 
-## Commands
+This site serves as a curated technical reference for integrating Heraeus Electro-Nite instruments with industrial PLCs. Whether you're supporting device integration in the field or working in a mill automation environment, this documentation is designed to make your job easier.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+---
 
-## Project layout
+## 📘 Start Here
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [SensorLab Steel ProfiNet Guide](instruments/SensorLab%20Steel/SLS%20ProfiNet%20Output%20Register%20User%20Guide.md)  
+- [CasTemp Wireless E5 AOI Documentation](instruments/CasTmp%20Wireless%20E5/CTWE5%20Add-On%20User%20Guide.md)  
+- [Downloads & Files](downloads/Downloads.md)  
+
+---
+
+
+
+
+## 🧰 Recent Additions
+
+- CTWE5 AOI documentation with ladder logic integration examples  
+- SensorLab Steel register map and ProfiNet offset guidance  
+- Editable EDS customization walkthrough for Anybus M40 module  
+
+---
+
+## 🤝 Support
+
+If you need help beyond what's included here:
+ 
+- Having trouble accessing files? Visit the [Downloads section](downloads/Downloads.md)
+
+---
+
+<!-- Comment: This homepage is built with MkDocs + Material theme -->
+
+
+
