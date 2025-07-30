@@ -161,7 +161,7 @@
        Both the M30 and M40 modules are compatible with these CTW units.<br>  
        To determine which driver EDS is required, the module must be removed, as the identification label is located on its underside.<br>
       <a href="/downloads/eds/m40/005A002B00370100.zip">
-        Anybus CompactCom M40 EDS File 005A002B00370100.zip
+        Anybus CompactCom M40 EDS File 005A002B00370100.zip<br>
       </a>
 	  <a href="/downloads/eds/m30/005A0000002E0100.zip">
         Anybus CompactCom M30 EDS File 005A0000002E0100.zip
