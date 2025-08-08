@@ -29,7 +29,7 @@ This site serves as a curated technical reference for integrating Heraeus Electr
 
 If you need help beyond what's included here:
  
-- Having trouble accessing files? Visit the [Downloads section](downloads/Downloads.md)
+- Having trouble accessing files? Visit the [Downloads section](downloads/downloads.md)
 
 ---
 
