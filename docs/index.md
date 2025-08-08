@@ -10,7 +10,7 @@ This site serves as a curated technical reference for integrating Heraeus Electr
 
 - [SensorLab Steel ProfiNet Guide](instruments/SensorLab%20Steel/SLS%20ProfiNet%20Output%20Register%20User%20Guide.md)  
 - [CasTemp Wireless E5 AOI Documentation](instruments/CasTmp%20Wireless%20E5/CTWE5%20Add-On%20User%20Guide.md)  
-- [Downloads & Files](downloads/downloads.md)  
+- [Downloads & Files](downloads/down_loads.md)  
  
 ---
 
@@ -29,7 +29,7 @@ This site serves as a curated technical reference for integrating Heraeus Electr
 
 If you need help beyond what's included here:
  
-- Having trouble accessing files? Visit the [Downloads section](downloads/downloads.md)
+- Having trouble accessing files? Visit the [Downloads section](downloads/down_loads.md)
 
 ---
 
