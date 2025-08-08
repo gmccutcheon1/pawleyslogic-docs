@@ -6,6 +6,34 @@
 </span>
 
 
+
+## General Intereset:
+
+### Documents and Help Files
+
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+  <li>
+    <div>
+      <strong>What Is This 169.254.x.x IP Address:</strong><br>
+      Simple explanation of what a 169.254.x.x IP address means, why it happens on SLS devices, <br>
+	  and what steps to take to fix it when a network connection isn't working.<br>
+      <a href="/downloads/general/What Is This 169.254.x.x IP Address.pdf">
+        What Is This 169.254.x.x IP Address.pdf
+      </a>
+    </div>
+  </li>
+  
+
+
+</ul>
+
+
+
+---
+
+
+
 ## IM2 / SensorLab Steel Related
 
 ### Documents and Help Files
