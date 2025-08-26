@@ -161,7 +161,25 @@
 
 ---
 
+### Software Downloads
 
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+  <li>
+    <div>
+      <strong>SensorLab Steel Instrument Software v3.3.0:</strong><br>
+      This is the installer to both Update older versions of the SLS instrument software and install on PCs as a Remote Viewer for those SLS's running v3.3.0<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/SensorLab_v3.3.0.zip">
+        SensorLab_v3.3.0.zip
+      </a>
+    </div>
+  </li>
+  
+
+
+</ul>
+
+---
 
 ## CasTemp Wireless (Windows Device) Related :
 
@@ -193,25 +211,7 @@
 </ul>
 
 
-### Software Downloads
 
-<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
-
-  <li>
-    <div>
-      <strong>SensorLab Steel Instrument Software v3.3.0:</strong><br>
-      This is the installer to both Update older versions of the SLS instrument software and install on PCs as a Remote Viewer for those SLS's running v3.3.0<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/SensorLab_v3.3.0.zip">
-        SensorLab_v3.3.0.zip
-      </a>
-    </div>
-  </li>
-  
-
-
-</ul>
-
----
 
 ### AOIs and Libraries
 
