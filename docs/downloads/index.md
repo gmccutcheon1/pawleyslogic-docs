@@ -117,8 +117,22 @@
       <a href="/downloads/sls/SLS Software Update _Draft.pdf">
         SLS Software Update _Draft.pdf
       </a>
+	  
     </div>
   </li>
+  
+  
+   <li>
+    <div>
+      <strong>SLS Remote Viewer Installation:</strong><br>
+      Directions for installing the SLS Remote Viewer.<br>
+      <a href="/downloads/sls/SLS Software Update _Draft.pdf">
+        SLS Software Update _Draft.pdf
+      </a>
+    </div>
+  </li>
+  
+  
   
   <li>
     <div>
@@ -177,6 +191,27 @@
   </li>
 
 </ul>
+
+
+### Software Downloads
+
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+  <li>
+    <div>
+      <strong>SensorLab Steel Instrument Software v3.3.0:</strong><br>
+      This is the installer to both Update older versions of the SLS instrument software and install on PCs as a Remote Viewer for those SLS's running v3.3.0<br>
+      <a href="/downloads/sls/SensorLab_v3.3.0.zip">
+        SensorLab_v3.3.0.zip
+      </a>
+    </div>
+  </li>
+  
+
+
+</ul>
+
+---
 
 ### AOIs and Libraries
 
