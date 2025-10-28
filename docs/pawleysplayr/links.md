@@ -1,5 +1,5 @@
 ---
-title: Pawleys Playr – Handy Links (Do Not Share)
+title: PawleysPlayr – Handy Links (Do Not Share)
 hide:
   - navigation
   - toc
