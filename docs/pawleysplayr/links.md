@@ -1,5 +1,5 @@
 ---
-title: Pawleys Playr – Handy Links
+title: Pawleys Playr – Handy Links (Do Not Share)
 hide:
   - navigation
   - toc
@@ -141,21 +141,104 @@ search:
 
   <li>
     <div>
-      <strong>SLS v3.7.0 Instrument Only Installer:</strong><br>
-      SLS v3.7.0 Instrument Only Installer .<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/SensorLab_v3.7.0_InstumentOnly.zip">
-        SensorLab_v3.7.0_InstumentOnly.zip
+      <strong>iM2SensorLab SensorLabSteel SensorLabMultilance 8.3.1 Manual:</strong><br>
+      IM2/SLS Manual .<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/iM2SensorLab_SensorLabSteel_SensorLabMultilance_8_3_1_EN_original.pdf">
+        iM2SensorLab_SensorLabSteel_SensorLabMultilance_8_3_1_EN_original.pdf
       </a>
     </div>
   </li>
 
 
+  <li>
+    <div>
+      <strong>SLS v3.3.0 Instrument Only Installer:</strong><br>
+      SLS v3.3.0 Instrument Only Installer .<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/SensorLab_v3.3.0.zip">
+        SensorLab_v3.3.0_InstumentOnly.zip
+      </a>
+    </div>
+  </li>
 
+  <li>
+    <div>
+      <strong>SLS v3.7.0 Instrument Only Installer:</strong><br>
+      SLS v3.7.0 Instrument Only Installer .<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/SensorLab_v3.7.0_InstrumentOnly.zip">
+        SensorLab_v3.7.0_InstrumentOnly.zip
+      </a>
+    </div>
+  </li>
+
+  <li>
+    <div>
+      <strong>SLS v3.8.0 Instrument Only Installer:</strong><br>
+      SLS v3.8.0 Instrument Only Installer .<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/SensorLab_v3.8.0_InstrumentOnly.zip">
+        SensorLab_v3.8.0_InstumentOnly.zip
+      </a>
+    </div>
+  </li>
 
 
 </ul>
 
 
 
+
+---
+
+## Hydris / HydroVAS Related
+
+### Documents and Help Files
+
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+  <li>
+    <div>
+      <strong>Hydris V1.4.2 Manual:</strong><br>
+      Hydris Manual .<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/Hydris_V1.4.2_EN_original.pdf">
+        Hydris_V1.4.2_EN_original.pdf
+      </a>
+    </div>
+  </li>
+
+  <li>
+    <div>
+      <strong>HydroVAS v1.4.0 Manual:</strong><br>
+      HydroVAS Manual .<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/HydroVAS_User_Manual_EN_v1.4.0_original.pdf">
+        HydroVAS_User_Manual_EN_v1.4.0_original.pdf
+      </a>
+    </div>
+  </li>
+
+
+</ul>
+
+---
+
+
+---
+
+## CasTemp / CasTip Related
+
+### Documents and Help Files
+
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+</ul>
+
+---
+---
+
+## CoreTemp / OOD Related
+
+### Documents and Help Files
+
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+</ul>
 
 ---
