@@ -268,11 +268,11 @@ search:
     <div>
       <strong>Anybus CompactCom M40 EDS File 005A002B00370100:</strong><br>
        The Anybus ABCC CompactCom 40 EtherNet/IP EDS File 005A002B00370100 for EIP communication..<br>
-	     <ul>
-			<li>CoreTemp<br></li>
-			<li> Hydris/HydroVAS<br></li>
-			<li> CasTemp E5<br></li>
-			<li> DTE E5<br></li>
+	     <ul>Instruments
+			<li>CoreTemp</li>
+			<li> Hydris/HydroVAS</li>
+			<li> CasTemp E5</li>
+			<li> DTE E5</li>
 		 </ul>
       <a href="/downloads/eds/m40/005A002B00370100.zip">
         Anybus CompactCom M40 EDS File 005A002B00370100.zip
