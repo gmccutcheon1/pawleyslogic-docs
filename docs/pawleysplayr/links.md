@@ -224,11 +224,96 @@ search:
 
 ## CasTemp / CasTip Related
 
-### Documents and Help Files
+### CTW E5
 
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
 
+  <li>
+    <div>
+      <strong>CTW_E5_EthernetIP_Config.pdf:</strong><br>
+      Short guide to configure the CasTemp Wireless E5 (CTW E5) for EtherNet/IP using the Anybus B40: includes <br>
+	  exact Level-2 menu paths, station value, I/O sizes (64 in / 128 out), recommended telegram selections (e.g., <br>
+	  Output Telegram 10 for AOI), trigger options, and save steps for Allen-Bradley/Studio 5000 integrations.<br>  
+      <a href="/downloads/ctw5/CTW_E5_EthernetIP_Config.pdf">
+        CTW_E5_EthernetIP_Config.pdf
+      </a>
+    </div>
+  </li>
+  
+    <li>
+    <div>
+      <strong>CTW_E5_EthernetIP_Config_DocImage.pdf:</strong><br>
+      Visual quick-start for configuring the CasTemp Wireless E5 (CTW E5) on EtherNet/IP: annotated screenshots of <br>
+	  the Level-2 menus, IP/network setup, I/O sizes, telegram selection, trigger/save steps, and a Studio 5000 mapping <br>
+	  example—ideal as a one-page setup reference.<br>  
+      <a href="/downloads/ctw5/CTW_E5_EthernetIP_Config_DocImage.pdf">
+        CTW_E5_EthernetIP_Config_DocImage.pdf
+      </a>
+    </div>
+  </li>
+
+  <li>
+    <div>
+      <strong>E5 Castemp Telegram #10.pdf:</strong><br>
+      Field-by-field reference for CasTemp Wireless E5 Superheat Output Telegram #10: lists each element <br>
+	  (e.g., MODID, BAT, DATETIME, TMP, SH, TL, PRSH, ROC, ERR/ERRLIST, RSSI, HN, GN), data types and lengths, <br>
+	  byte order (high-byte first for floats/time), plus complete sample frames in ASCII and HEX with total byte<br>
+	  counts for PLC parsing.<br>  
+      <a href="/downloads/ctw5/E5 Castemp Telegram #10.pdf">
+        E5 Castemp Telegram #10.pdf
+      </a>
+    </div>
+  </li>
+
+
+  <li>
+    <div>
+      <strong>HEN_CTWE5Parser_CLX34_UserGuide.pdf:</strong><br>
+      This document provides detailed instructions for importing and using the HEN_CTWE5Parser_CLX3x Add-On Instruction <br>
+	  in Rockwell Studio5000, including tag setup, telegram parsing, and module connection options for Heraeus CasTemp Wireless E5 (CTW5) instruments.<br>  
+      Parsed values include process measurements, diagnostics, and metadata from the wireless QUBE module::<br>
+      <a href="/downloads/ctw5/HEN_CTWE5Parser_CLX34_UserGuide.pdf">
+        HEN_CTWE5Parser_CLX34_UserGuide.pdf
+      </a>
+    </div>
+  </li>
+
+
 </ul>
+
+### CTW E5 AOI
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+
+  <li>
+    <div>
+      <strong>HEN_CTWE5Parser_CLX34_AOI.zip:</strong><br>
+      Studio 5000 v34 Add-On Instruction (L5X) for CasTemp Wireless E5 — built specifically for Output Telegram #10: <br>
+	  parses the 128-byte CTWE5:I.Data array into typed tags (datetime, temperature, superheat, TL, PRSH, ROC, <br>
+	  battery %, RSSI, error code/list, heat #, group #, module ID), with Valid/NewData/Fault status bits, included UDTs, <br>
+	  and a sample rung for quick drop-in mapping on CompactLogix/ControlLogix.<br>
+      <a href="/downloads/ctw5/HEN_CTWE5Parser_CLX34_AOI.zip">
+        HEN_CTWE5Parser_CLX34_AOI.zip
+      </a>
+    </div>
+  </li>
+  
+  <li>
+    <div>
+      <strong>HEN_CTWE5Parser_CLX32_AOI.zip:</strong><br>
+      Studio 5000 v32 Add-On Instruction (L5X) for CasTemp Wireless E5 — built specifically for Output Telegram #10: <br>
+	  parses the 128-byte CTWE5:I.Data array into typed tags (datetime, temperature, superheat, TL, PRSH, ROC, <br>
+	  battery %, RSSI, error code/list, heat #, group #, module ID), with Valid/NewData/Fault status bits, included UDTs, <br>
+	  and a sample rung for quick drop-in mapping on CompactLogix/ControlLogix.<br>
+      <a href="/downloads/ctw5/HEN_CTWE5Parser_CLX32_AOI.zip">
+        HEN_CTWE5Parser_CLX32_AOI.zip
+      </a>
+    </div>
+  </li>
+
+
+</ul>
+
 
 ---
 ---
