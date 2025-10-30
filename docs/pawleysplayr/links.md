@@ -63,6 +63,17 @@ search:
     </div>
   </li>
   
+    <li>
+    <div>
+      <strong>Change SLS Screen Resolution BIOS Settings:</strong><br>
+      Directions for changing the screen resolution from the BIOS on SLS.<br>
+      <a href="/downloads/sls/Change SLS Screen Resolution BIOS Settings.pdf">
+        Change SLS Screen Resolution BIOS Settings.pdf
+      </a>
+    </div>
+  </li>
+  
+  
   <li>
     <div>
       <strong>Set SLS To Display Time Interval Between Measurements:</strong><br>
