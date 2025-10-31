@@ -139,15 +139,7 @@ search:
   </li>
   
   
-  <li>
-    <div>
-      <strong>Set up SLS for EIP Output Registers:</strong><br>
-      Directions for enabling the EtherNet/IP module and seting it up to used Output registers up the SLS .<br>
-      <a href="/downloads/sls/sls_output_register_files_clx/Set up SLS for EIP Output Registers.pdf">
-        Set up SLS for EIP Output Registers.pdf
-      </a>
-    </div>
-  </li>
+Wer von denen hat die PLC communikationsliste geschickt?
 
 
   <li>
@@ -161,6 +153,15 @@ search:
   </li>
 
 
+
+
+
+</ul>
+
+
+### IM2/SLS Software Updates Related
+
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
   <li>
     <div>
       <strong>SLS v3.3.0 Instrument Only Installer:</strong><br>
@@ -190,11 +191,64 @@ search:
       </a>
     </div>
   </li>
+</ul>
+
+---
+---
+
+
+### IM2/SLS EIP Comms Related
+
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+  <li>
+    <div>
+      <strong>Set up PLC for EIP Generic Ethernet Module Communication to SLS :</strong><br>
+      Step-by-step setup for connecting SensorLab Steel (SLS) to an Allen-Bradley CompactLogix/ControlLogix via a <br>
+	  Generic Ethernet Module in Studio 5000: includes example IP settings, exact connection parameters, the “don’t use unicast” <br>
+	  checkbox, offline download note, and how to view raw data (hex) in the input array, plus a Loom video link..<br>
+      <a href="/downloads/sls/Set up PLC for EIP Generic Ethernet Module Communication to SLS.pdf">
+        Set up PLC for EIP Generic Ethernet Module Communication to SLS.pdf
+      </a>
+    </div>
+  </li>
+
 
 
 </ul>
 
+---
 
+</ul>
+
+### IM2/SLS AOI
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+  <li>
+    <div>
+      <strong>HEN_CTWE5Parser_CLX34_AOI.zip:</strong><br>
+      Studio 5000 v34 Add-On Instruction pack for SensorLab Steel (SLS) to CompactLogix/ControlLogix: includes AOI + UDTs <br>
+	  to parse the Generic EtherNet/IP input array into structured tags (measurements, status/alarms, timestamp, IDs), <br>
+	  with a sample project/rungs and a brief tag-mapping guide for fast drop-in integration.<br>
+      <a href="/downloads/sls/SLS CLX Add-On Instruction/SLS_INT130_RegisterAssembler_CLX34_AOI.zip">
+        SLS_INT130_RegisterAssembler_CLX34_AOI.zip
+      </a>
+    </div>
+  </li>
+  
+  <li>
+    <div>
+      <strong>HEN_CTWE5Parser_CLX32_AOI.zip:</strong><br>
+      Studio 5000 v32 Add-On Instruction pack for SensorLab Steel (SLS) to CompactLogix/ControlLogix: includes AOI + UDTs <br>
+	  to parse the Generic EtherNet/IP input array into structured tags (measurements, status/alarms, timestamp, IDs), <br>
+	  with a sample project/rungs and a brief tag-mapping guide for fast drop-in integration.<br>
+      <a href="/downloads/sls/SLS CLX Add-On Instruction/SLS_INT130_RegisterAssembler_CLX32_AOI.zip">
+        SLS_INT130_RegisterAssembler_CLX32_AOI.zip
+      </a>
+    </div>
+  </li>
+
+</ul>
 
 
 ---
