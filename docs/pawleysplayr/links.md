@@ -224,6 +224,19 @@ Wer von denen hat die PLC communikationsliste geschickt?
 ### IM2/SLS AOI
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
 
+
+  <li>
+    <div>
+      <strong>SLS Example PLC Output Register AOI Use Rev2:</strong><br>
+      Hands-on guide to using the SLSRegisterAssembler_CLX34 AOI with CompactLogix/ControlLogix: shows how to import the AOI, <br>
+	  map the SLS 130-byte :I.Data array, create SLSParsedDataSet result tags (per station), verify parsed fields, and configure <br>
+	  a Generic EtherNet/IP module—includes a Loom demo link..<br>
+      <a href="/downloads/sls/SLS Example PLC Output Register AOI Use Rev2.pdf">
+        SLS Example PLC Output Register AOI Use Rev2.pdf
+      </a>
+    </div>
+  </li>
+
   <li>
     <div>
       <strong>HEN_CTWE5Parser_CLX34_AOI.zip:</strong><br>
