@@ -139,7 +139,6 @@ search:
   </li>
   
   
-Wer von denen hat die PLC communikationsliste geschickt?
 
 
   <li>
