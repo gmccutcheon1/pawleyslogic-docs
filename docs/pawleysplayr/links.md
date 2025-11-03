@@ -345,7 +345,7 @@ search:
 
   <li>
     <div>
-      <strong>HEN_CTWE5Parser_CLX34_UserGuide.pdf:</strong><br>
+      <strong>HEN_CTWE5Parser_CLX34_UserGuide:</strong><br>
       This document provides detailed instructions for importing and using the HEN_CTWE5Parser_CLX3x Add-On Instruction <br>
 	  in Rockwell Studio5000, including tag setup, telegram parsing, and module connection options for Heraeus CasTemp Wireless E5 (CTW5) instruments.<br>  
       Parsed values include process measurements, diagnostics, and metadata from the wireless QUBE module::<br>
@@ -355,6 +355,18 @@ search:
     </div>
   </li>
 
+
+  <li>
+    <div>
+      <strong>CTW E5 EIP Comms Configuration and EDS Installation Rev1:</strong><br>
+      Step-by-step setup for CasTemp Wireless E5 on EtherNet/IP in Studio 5000, including installing the Anybus CompactCom 40 EDS via the <br>
+	  EIP Hardware Installation Tool, creating the module, setting 128-byte Input / 64-byte Output (SINT) assemblies, and noting key tags like CTWE5:I.Data <br>
+	  and ConnectionFaulted.:<br>
+      <a href="/downloads/ctw5/CTW E5 EIP Comms Configuration and EDS Installation Rev1.pdf">
+        CTW E5 EIP Comms Configuration and EDS Installation Rev1.pdf
+      </a>
+    </div>
+  </li>
 
 </ul>
 
