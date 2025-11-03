@@ -307,6 +307,19 @@ search:
 
   <li>
     <div>
+      <strong>CTW E5 EtherNet/IP Commissioning (Rev 1, 2025-11-03):</strong><br>
+      Step-by-step guide and links for connecting a CasTemp Wireless E5 to ControlLogix/CompactLogix in Studio 5000: <br>
+	  install the Anybus M40 EDS, create the module, and set PLC sizes (Input 128 bytes, Output 64 bytes). <br>
+	  Includes an optional AOI for parsing Output Telegram #10, instrument-side tips, and a quick PLC checklist..<br>  
+      <a href="/downloads/ctw5/CTW-E5_EIP_Commissioning_Rev1_2025-11-03.pdf">
+        CTW-E5_EIP_Commissioning_Rev1_2025-11-03.pdf
+      </a>
+    </div>
+  </li>
+
+
+  <li>
+    <div>
       <strong>CTW_E5_EthernetIP_Config.pdf:</strong><br>
       Short guide to configure the CasTemp Wireless E5 (CTW E5) for EtherNet/IP using the Anybus B40: includes <br>
 	  exact Level-2 menu paths, station value, I/O sizes (64 in / 128 out), recommended telegram selections (e.g., <br>
