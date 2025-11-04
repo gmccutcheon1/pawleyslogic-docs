@@ -13,6 +13,17 @@ search:
 
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
 
+
+  <li>
+    <div>
+      <strong>SLS Internal Ethernet Wiring Diagram - For Different L2 Option:</strong><br>
+      Internal Ethernet wiring reference for SensorLab Steel (SLS).<br>
+      <a href="/downloads/sls/SLS Internal Ethernet Wiring Diagram - For Different L2 Option.pdf">
+        SLS Internal Ethernet Wiring Diagram - For Different L2 Option.pdf
+      </a>
+    </div>
+  </li>
+
   <li>
     <div>
       <strong>MetNet to SLS Light Set Conversion:</strong><br>
