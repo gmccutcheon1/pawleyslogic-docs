@@ -129,30 +129,6 @@ search:
     </div>
   </li>
   
-  
-  
-  <li>
-    <div>
-      <strong>Set up SLS for ProfiNet Output Registers:</strong><br>
-      Directions for enabling the ProfiNet module and seting it up to used Output registers up the SLS .<br>
-      <a href="/downloads/sls/sls_output_register_files_pnet/Set up SLS for ProfiNet Output Registers.pdf">
-        Set up SLS for ProfiNet Output Registers.pdf
-      </a>
-    </div>
-  </li>
-  
-    <li>
-    <div>
-      <strong>SLS Output Register Memory Organization Reference for ProfiNet :</strong><br>
-      Illustration mapping Output register data from the SLS internalling using TIA Portal .<br>
-      <a href="/downloads/sls/sls_output_register_files_pnet/SLS Output Register Memory Organization Reference- PNet.pdf">
-        SLS Output Register Memory Organization Reference- PNet.pdf
-      </a>
-    </div>
-  </li>
-  
-  
-
 
   <li>
     <div>
@@ -206,6 +182,35 @@ search:
 </ul>
 
 ---
+
+### IM2/SLS ProfiNet Comms Related
+
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+  <li>
+    <div>
+      <strong>Set up SLS for ProfiNet Output Registers:</strong><br>
+      Directions for enabling the ProfiNet module and seting it up to used Output registers up the SLS .<br>
+      <a href="/downloads/sls/sls_output_register_files_pnet/Set up SLS for ProfiNet Output Registers.pdf">
+        Set up SLS for ProfiNet Output Registers.pdf
+      </a>
+    </div>
+  </li>
+
+    <li>
+    <div>
+      <strong>SLS Output Register Memory Organization Reference for ProfiNet :</strong><br>
+      Illustration mapping Output register data from the SLS internalling using TIA Portal .<br>
+      <a href="/downloads/sls/sls_output_register_files_pnet/SLS Output Register Memory Organization Reference- PNet.pdf">
+        SLS Output Register Memory Organization Reference- PNet.pdf
+      </a>
+    </div>
+  </li>
+
+
+
+</ul>
+
 ---
 
 
