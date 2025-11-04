@@ -29,6 +29,7 @@ search:
   <li>
     <div>
       <strong>MetNet to SLS Light Set Conversion:</strong><br>
+	  Directions for the light set conversion wiring when changing over a MetNet to a SLS. Also contains a good <strong>illustration of the SLS connector wiring.</strong><br>
       Field guide for converting a MetNet light set to SensorLab Steel (SLS): pinouts, step-by-step re-termination <br>
 	  from the green MetNet terminal to the SLS RD24 male connector, notes on horn/blue lamp wiring, an optional <br>
 	  pre-terminated pigtail (Alpha 1898/7C + WAGO 221-2401), and a complete parts list.<br>
