@@ -207,6 +207,18 @@
 
   <li>
     <div>
+      <strong>Set up SLS for EIP Output Registers :</strong><br>
+      Step-by-step setup to enable EtherNet/IP Output Registers on SensorLab Steel / IM2: covers network prerequisites, <br>
+	  login (24816), LAN configuration, enabling EtherNet/IP in the active program, selecting Use Registers, Low byte first, <br>
+	  Single precision Float, and saving/activating the program<br>
+      <a href="/downloads/sls/Set up SLS for EIP Output Registers.pdf">
+        Set up SLS for EIP Output Registers.pdf
+      </a>
+    </div>
+  </li>
+
+  <li>
+    <div>
       <strong>Set up PLC for EIP Generic Ethernet Module Communication to SLS :</strong><br>
       Step-by-step setup for connecting SensorLab Steel (SLS) to an Allen-Bradley CompactLogix/ControlLogix via a <br>
 	  Generic Ethernet Module in Studio 5000: includes example IP settings, exact connection parameters, the “don’t use unicast” <br>
@@ -240,31 +252,6 @@
     </div>
   </li>
 
-  <li>
-    <div>
-      <strong>HEN_CTWE5Parser_CLX34_AOI.zip:</strong><br>
-      Studio 5000 v34 Add-On Instruction pack for SensorLab Steel (SLS) to CompactLogix/ControlLogix: includes AOI + UDTs <br>
-	  to parse the Generic EtherNet/IP input array into structured tags (measurements, status/alarms, timestamp, IDs), <br>
-	  with a sample project/rungs and a brief tag-mapping guide for fast drop-in integration.<br>
-      <a href="/downloads/sls/SLS CLX Add-On Instruction/SLS_INT130_RegisterAssembler_CLX34_AOI.zip">
-        SLS_INT130_RegisterAssembler_CLX34_AOI.zip
-      </a>
-    </div>
-  </li>
-  
-  <li>
-    <div>
-      <strong>HEN_CTWE5Parser_CLX32_AOI.zip:</strong><br>
-      Studio 5000 v32 Add-On Instruction pack for SensorLab Steel (SLS) to CompactLogix/ControlLogix: includes AOI + UDTs <br>
-	  to parse the Generic EtherNet/IP input array into structured tags (measurements, status/alarms, timestamp, IDs), <br>
-	  with a sample project/rungs and a brief tag-mapping guide for fast drop-in integration.<br>
-      <a href="/downloads/sls/SLS CLX Add-On Instruction/SLS_INT130_RegisterAssembler_CLX32_AOI.zip">
-        SLS_INT130_RegisterAssembler_CLX32_AOI.zip
-      </a>
-    </div>
-  </li>
-
-</ul>
 
 
 ---

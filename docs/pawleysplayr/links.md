@@ -215,6 +215,18 @@ search:
 
   <li>
     <div>
+      <strong>Set up SLS for EIP Output Registers :</strong><br>
+      Step-by-step setup to enable EtherNet/IP Output Registers on SensorLab Steel / IM2: covers network prerequisites, <br>
+	  login (24816), LAN configuration, enabling EtherNet/IP in the active program, selecting Use Registers, Low byte first, <br>
+	  Single precision Float, and saving/activating the program<br>
+      <a href="/downloads/sls/Set up SLS for EIP Output Registers.pdf">
+        Set up SLS for EIP Output Registers.pdf
+      </a>
+    </div>
+  </li>
+
+  <li>
+    <div>
       <strong>Set up PLC for EIP Generic Ethernet Module Communication to SLS :</strong><br>
       Step-by-step setup for connecting SensorLab Steel (SLS) to an Allen-Bradley CompactLogix/ControlLogix via a <br>
 	  Generic Ethernet Module in Studio 5000: includes example IP settings, exact connection parameters, the “don’t use unicast” <br>
