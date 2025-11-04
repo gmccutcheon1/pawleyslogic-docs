@@ -618,7 +618,9 @@
   <li>
     <div>
       <strong>MetNet to SLS Light Set Conversion:</strong><br>
-      Directions for the light set conversion wiring when changing over a MetNet to a SLS. Also contains a good illustration of the SLS connector wiring.<br>
+      Field guide for converting a MetNet light set to SensorLab Steel (SLS): pinouts, step-by-step re-termination <br>
+      from the green MetNet terminal to the SLS RD24 male connector, notes on horn/blue lamp wiring, an optional <br>
+      pre-terminated pigtail (Alpha 1898/7C + WAGO 221-2401), and a complete parts list.<br>
       <a href="/downloads/sls/MetNet to SLS Light Set Conversion.pdf">
         MetNet to SLS Light Set Conversion.pdf
       </a>
@@ -628,7 +630,9 @@
     <li>
     <div>
       <strong>Heraeus IM2 SensorLab to Receiver Box Wiring Guide:</strong><br>
-      Heraeus IM2 SensorLab to Receiver Box Wiring Guide Using Cat 5/6 Extension and DB9-RJ45 Adapters.<br>
+      Wiring guide for connecting Heraeus IM2 SensorLab to the Receiver Box using CAT5/6 and DB9–RJ45 adapters: clarifies <br>
+      that RJ45 pin 7 must map to DB9 pin 9 (not pin 4) to complete the 24 V DC return path, and includes male/female <br>
+      DB9 diagrams for correct terminations.<br>
       <a href="/downloads/sls/Heraeus IM2 SensorLab to Receiver Box Wiring Guide.pdf">
         Heraeus IM2 SensorLab to Receiver Box Wiring Guide.pdf
       </a>
@@ -638,7 +642,9 @@
     <li>
     <div>
       <strong>Disable QUBE Wireless Sleep Mode on SLS:</strong><br>
-      Directions for disabling the QUBE wireless sleep mode on SLS.<br>
+      Step-by-step guide to disable QUBE Wireless sleep on SensorLab Steel (SLS)—includes the exact menu path <br>
+      (login 2448 → Settings → Configure → Basic Instrument Setup → Dual Station Setup), which option to check for <br>
+      “Wireless via Wireless 1,” and how to save and activate the new program..<br>
       <a href="/downloads/sls/Disable QUBE Wireless Sleep Mode on SLS.pdf">
         Disable QUBE Wireless Sleep Mode on SLS.pdf
       </a>
@@ -648,7 +654,8 @@
     <li>
     <div>
       <strong>Disable QUBE Wireless Safety on SLS:</strong><br>
-      Directions for disabling the QUBE wireless safety mode on SLS.<br>
+      Quick steps to disable QUBE Wireless Safety on SensorLab Steel (SLS): navigate to Settings → Wireless Safety, <br>
+      uncheck “Wireless safety mode enabled,” then Save and commit program changes—includes annotated screenshots..<br>
       <a href="/downloads/sls/Disable QUBE Wireless Safety on SLS.pdf">
         Disable QUBE Wireless Safety on SLS.pdf
       </a>
@@ -658,7 +665,9 @@
     <li>
     <div>
       <strong>Change SLS Screen Resolution:</strong><br>
-      Directions for changing the screen resolution from the operating system on SLS.<br>
+      Directions for changing the screen resolution from the operating system on SLS. <br>
+      Quick procedure to change the SensorLab Steel (SLS) screen resolution: log in with the Daily password, <br>
+      exit to the OS, run explorer.exe, open Control Panel → Display → Change display settings, adjust resolution, and save.<br>
       <a href="/downloads/sls/Change SLS Screen Resolution.pdf">
         Change SLS Screen Resolution.pdf
       </a>
@@ -668,7 +677,10 @@
     <li>
     <div>
       <strong>Change SLS Screen Resolution BIOS Settings:</strong><br>
-      Directions for changing the screen resolution from the BIOS on SLS.<br>
+      Directions for changing the screen resolution from the BIOS on SLS. <br>
+      BIOS-level steps to set the SensorLab Steel (SLS) display to 1024×768: enter BIOS (DEL, password 478236), <br>
+      go to Chipset → North Bridge → IGD – LCD Control, disable Active LVDS (CH7511), <br>
+      set CH7511 EDID Panel Option to 1024x768 18/1, then F4 to save.<br>
       <a href="/downloads/sls/Change SLS Screen Resolution BIOS Settings.pdf">
         Change SLS Screen Resolution BIOS Settings.pdf
       </a>
@@ -679,7 +691,10 @@
   <li>
     <div>
       <strong>Set SLS To Display Time Interval Between Measurements:</strong><br>
-      Directions for setting up the SLS to display the time interval between samples on the screen.<br>
+      Directions for setting up the SLS to display the time interval between samples on the screen. <br>
+      Quick steps to show the time interval between measurements on SLS: <br>
+      log in (password 2448), open User Settings → Display settings → Edit, check “Display interval between measurements,” and Save. <br>
+      Note: this isn’t stored in the Settings File backup.<br>
       <a href="/downloads/sls/Set SLS To Display Time Interval Between Measurements.pdf">
         Set SLS To Display Time Interval Between Measurements.pdf
       </a>
@@ -689,7 +704,11 @@
   <li>
     <div>
       <strong>IM2 or SLS - Check for EIP Hardware:</strong><br>
-      Directions for checking if the EIP hardware is installed in the SLS. This same approach works for other cards such as the ProfiNet also.<br>
+      Directions for checking if the EIP hardware is installed in the SLS. <br>
+      This same approach works for other cards such as the ProfiNet also. <br>
+      Quick check to confirm IM2/SLS EtherNet/IP hardware is installed: <br>
+      log in (password 24816) → System Tools → Hardware Check → Start hardware check, then <br>
+      scroll to ETC EtherNet/IP switch port—Status: Operational confirms the option is present.<br>
       <a href="/downloads/sls/IM2 or SLS - Check for EIP Hardware.pdf">
         IM2 or SLS - Check for EIP Hardware.pdf
       </a>
@@ -699,7 +718,10 @@
  <li>
     <div>
       <strong>SLS Software Update:</strong><br>
-      Directions for updating the SLS application version.<br>
+      Directions for updating the SLS application version. <br>
+      How-to for updating SensorLab Steel (SLS) software: download and unzip the install package (e.g., SensorLab_v3.3.0.zip)<br>
+      , copy to USB, log in with the Daily password, go to System Tools → Update Software, select DeployAgent.exe from the USB, <br>
+      and follow the on-screen prompts<br>
       <a href="/downloads/sls/SLS Software Update _Draft.pdf">
         SLS Software Update _Draft.pdf
       </a>
@@ -711,7 +733,9 @@
    <li>
     <div>
       <strong>SLS Remote Viewer Installation:</strong><br>
-      Directions for installing the SLS Remote Viewer.<br>
+      Directions for installing the SLS Remote Viewer. <br>
+      Remote Viewer setup for IM2/SensorLab Steel: download and unzip SensorLab_v3.3.0, run DeployAgent.exe, <br>
+      apply the henmachine.reg license key, then connect (scan or by IP) over LAN—supports up to 4 remote PCs on Windows 7+.<br>
       <a href="/downloads/sls/SLS - Installing Remote Viewer.pdf">
         SLS - Installing Remote Viewer.pdf
       </a>
