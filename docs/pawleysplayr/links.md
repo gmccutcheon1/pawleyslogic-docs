@@ -17,7 +17,9 @@ search:
   <li>
     <div>
       <strong>SLS Internal Ethernet Wiring Diagram - For Different L2 Option:</strong><br>
-      Internal Ethernet wiring reference for SensorLab Steel (SLS).<br>
+      Internal Ethernet wiring reference for SensorLab Steel (SLS): shows LAN1/LAN2 routing on the BYT CPU, <br>
+	  external LAN/option connectors, ADC/EK1100 backplane, and Beckhoff terminals for each L2 option—<br>
+	  A) none, B) EtherNet/IP, C) Modbus TCP, D) Profinet (EL6631).<br>
       <a href="/downloads/sls/SLS Internal Ethernet Wiring Diagram - For Different L2 Option.pdf">
         SLS Internal Ethernet Wiring Diagram - For Different L2 Option.pdf
       </a>
