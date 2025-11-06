@@ -365,9 +365,64 @@ search:
 ---
 
 
----
+
 
 ## CasTemp / CasTip Related
+
+### CTW Windows
+
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+  <li>
+    <div>
+      <strong>CasTemp / CasTemp Wireless — Licensing (PDF):</strong><br>
+      How to generate the Hardware ID, submit the approval form, receive the .lic file, and activate the license <br>
+	  on the instrument via License → Update (includes version requirement and typical status messages).<br>  
+      <a href="/downloads/ctw/CTW Licensing.pdf">
+        CTW Licensing.pdf
+      </a>
+    </div>
+  </li>
+
+  <li>
+    <div>
+      <strong>CasTemp Wireless — Verifying the EtherNet/IP Module (PDF):</strong><br>
+      How to confirm an Anybus M30/M40 EtherNet/IP module is installed (visual ID from the faceplate), plus safe removal/reinstallation <br>
+	  steps with Torx T8, power-off precautions, and alignment warnings for the CompactFlash connector..<br>  
+      <a href="/downloads/ctw/CTW - Verifying the EthernetIP Module in a CasTemp Wireless Unit.pdf">
+        CTW - Verifying the EthernetIP Module in a CasTemp Wireless Unit.pdf
+      </a>
+    </div>
+  </li>
+  
+    <li>
+    <div>
+      <strong>CasTemp Wireless CTWReadAssembler_CLX3x AOI — Setup & Use (Rev 1, PDF):</strong><br>
+      Studio 5000 v34+ Add-On Instruction for CompactLogix/ControlLogix that parses CasTemp Wireless EtherNet/IP input data into a <br>
+	  structured CTWResults UDT. Includes import steps, tag mapping to CasTemp:I.Data, optional .ConnectionFaulted handling, <br>
+	  required telegram layout, and a link to a short demo video.<br>  
+      <a href="/downloads/ctw/CasTemp Wireless CTWReadAssembler_CLX3x AOI Setup and Use Rev1.pdf">
+        CasTemp Wireless CTWReadAssembler_CLX3x AOI Setup and Use Rev1.pdf
+      </a>
+    </div>
+  </li>
+  
+      <li>
+    <div>
+      <strong>CTWReadAssembler_CLX34 — ControlLogix/CompactLogix AOI (ZIP):</strong><br>
+      Studio 5000 v34+ Add-On Instruction that parses CasTemp Wireless (CTW) EtherNet/IP input (128-byte assembly) into a structured UDT <br>
+	  for easy tag access. Includes AOI, example routine, and tag templates; supports Telegram #10 layouts and optional .ConnectionFaulted monitoring.<br>  
+      <a href="/downloads/ctw/CTWReadAssembler_CLX34_AOI.zip">
+        CTWReadAssembler_CLX34_AOI.zip
+      </a>
+    </div>
+  </li>
+  
+
+</ul>
+
+---
+
 
 ### CTW E5
 
