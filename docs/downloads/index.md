@@ -260,7 +260,7 @@
 ### Documents and Help Files
 
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
-
+<!-- Begin CommentBlock
   <li>
     <div>
       <strong>Hydris V1.4.2 Manual:</strong><br>
@@ -280,7 +280,7 @@
       </a>
     </div>
   </li>
-
+End Comment Block -->
 
 </ul>
 
