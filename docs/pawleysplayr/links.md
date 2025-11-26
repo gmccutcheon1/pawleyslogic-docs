@@ -549,9 +549,48 @@ search:
 
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
 
+  <li>
+    <div>
+      <strong>CoreTemp Level-2 Telegram UDTs (TIA Portal) — Setup & Usage:</strong><br>
+      This document provides detailed instructions for the import of two ready-made .udt source files into <br>
+	  TIA Portal v18 and map them as structured tags directly over the CoreTemp Level-2 input/output telegram ranges, <br>
+	  then monitor and use the fields in logic.<br>
+      <a href="/downloads/coretemp/CoreTemp Level-2 Telegram UDTs (TIA Portal) — Setup & Usage WIP1.pdf">
+        CoreTemp Level-2 Telegram UDTs (TIA Portal) — Setup & Usage
+      </a>
+    </div>
+  </li>
+  
+  <li>
+    <div>
+      <strong>CoreTemp Level-2 Telegram UDTs (TIA Portal) — Setup & Usage Video:</strong><br>
+      Video illustrating the procedure described in the "CoreTemp Level-2 Telegram UDTs (TIA Portal) — Setup & Usage WIP1.pdf" <br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/coretemp/Importing+CoreTemp+UDTs.mp4">
+        CoreTemp Level-2 Telegram UDTs (TIA Portal) — Setup & Usage Video
+      </a>
+    </div>
+  </li>
+
 </ul>
 
 ---
+### CoreTemp Add-Ons FBs and UDTs
+
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+  <li>
+    <div>
+      <strong>HEN CoreTemp Siemens UDTs:</strong><br>
+      This Zip file Includes a set of PLC data types that implement a 1:1 memory image of the Level-2 industrial telegrams described in <br>
+	  the CoreTemp manual (Input telegram = data sent from PLC to CoreTemp; Output telegram = data sent from CoreTemp to PLC).<br>
+      <a href="/downloads/coretemp/HEN_CoreTemp_Siemens_UDTs.zip">
+        HEN_CoreTemp_Siemens_UDTs
+      </a>
+    </div>
+  </li>
+
+</ul>
+
 
 ---
 
