@@ -512,7 +512,7 @@ search:
 
   <li>
     <div>
-      <strong>HEN_CTWE5Parser_CLX34_AOI.zip:</strong><br>
+      <strong>HEN_CTWE5Parser_CLX34_AOI:</strong><br>
       Studio 5000 v34 Add-On Instruction (L5X) for CasTemp Wireless E5 — built specifically for Output Telegram #10: <br>
 	  parses the 128-byte CTWE5:I.Data array into typed tags (datetime, temperature, superheat, TL, PRSH, ROC, <br>
 	  battery %, RSSI, error code/list, heat #, group #, module ID), with Valid/NewData/Fault status bits, included UDTs, <br>
@@ -525,7 +525,7 @@ search:
   
   <li>
     <div>
-      <strong>HEN_CTWE5Parser_CLX32_AOI.zip:</strong><br>
+      <strong>HEN_CTWE5Parser_CLX32_AOI:</strong><br>
       Studio 5000 v32 Add-On Instruction (L5X) for CasTemp Wireless E5 — built specifically for Output Telegram #10: <br>
 	  parses the 128-byte CTWE5:I.Data array into typed tags (datetime, temperature, superheat, TL, PRSH, ROC, <br>
 	  battery %, RSSI, error code/list, heat #, group #, module ID), with Valid/NewData/Fault status bits, included UDTs, <br>
@@ -536,6 +536,18 @@ search:
     </div>
   </li>
 
+  <li>
+    <div>
+      <strong>HEN_CTWE5Parser_CLX20_AOI:</strong><br>
+      Studio 5000 v20 Add-On Instruction (L5X) for CasTemp Wireless E5 — built specifically for Output Telegram #10: <br>
+	  parses the 128-byte CTWE5:I.Data array into typed tags (datetime, temperature, superheat, TL, PRSH, ROC, <br>
+	  battery %, RSSI, error code/list, heat #, group #, module ID), with Valid/NewData/Fault status bits, included UDTs, <br>
+	  and a sample rung for quick drop-in mapping on CompactLogix/ControlLogix.<br>
+      <a href="/downloads/ctw5/HEN_CTWE5Parser_CLX20_AOI.zip">
+        HEN_CTWE5Parser_CLX20_AOI.zip
+      </a>
+    </div>
+  </li>
 
 </ul>
 
