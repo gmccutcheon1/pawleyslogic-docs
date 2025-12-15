@@ -234,6 +234,24 @@ search:
       </a>
     </div>
   </li>
+  
+    <li>
+    <div>
+      <strong>SLS ProfiNet Output Register Direct Overlay (TIA Portal v18) – Quick Setup Guide:</strong><br>
+      Step-by-step instructions for setting up a direct UDT overlay of the SLS ProfiNet output register data in TIA Portal v18. <br>
+	  Covers importing the udt_SLS_OutReg_Overlay source, locating and recording the input start address in Device configuration → Device overview, <br>
+	  creating an EAF_SLS PLC tag table, adding Station 1/Station 2 tags at the correct %I addresses, then compiling/downloading and going online to <br>
+	  expand the tag and monitor live data..<br>
+      <a href="/downloads/sls/sls_output_register_files_pnet/SLS ProfiNet Output Register Direct Overlay.pdf">
+        SLS ProfiNet Output Register Direct Overlay.pdf	
+      </a>
+	  
+	  <a href="/downloads/sls/sls_output_register_files_pnet/udt_SLS_OutReg_Overlay.zip">
+        udt_SLS_OutReg_Overlay.zip
+		
+      </a>
+    </div>
+  </li>
 
     <li>
     <div>
