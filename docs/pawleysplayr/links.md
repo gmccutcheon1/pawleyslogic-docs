@@ -688,3 +688,41 @@ search:
 
 </ul>
 ---
+
+
+## E4 Related
+
+### Documents and Help Files
+
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+  <li>
+    <div>
+      <strong>DTE E4 PROFINET Notes (Testing-Only):</strong><br>
+      A quick-start guide for connecting the DTE E4 to Siemens via PROFINET—suggested instrument parameters, <br>
+	  TIA Portal device config (e.g., 32×4-byte inputs), status/error byte mapping, and example UDT + FB logic <br>
+	  for byte-swap/struct overlay, with screenshots.<br>
+      <a href="/downloads/e4/DTE E4 Profinet Notes .pdf">
+        DTE E4 Profinet Notes
+      </a>
+    </div>
+  </li>
+  
+
+
+</ul>
+
+---
+### E4 Add-Ons FBs and UDTs
+
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+  <li>
+
+    </div>
+  </li>
+
+</ul>
+
+
+---
