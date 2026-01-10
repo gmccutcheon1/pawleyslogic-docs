@@ -185,6 +185,26 @@ search:
 </ul>
 
 
+### IM2/SLS Bug/Quirk Related
+
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+  <li>
+    <div>
+      <strong>SensorLab — Status Word Endianness Explained (Output Registers vs. Custom Telegrams):</strong><br>
+      Why some SLS fields decode little-endian while status words don’t: this note documents that Output Register status words <br>
+	  are always big-endian, but Custom Telegram status words are always little-endian. .<br>
+      <a href="/downloads/sls/SensorLab Status Word Endianness Inconsistancy.pdf">
+        SensorLab Status Word Endianness Inconsistancy.pdf
+      </a>
+    </div>
+  </li>
+
+
+</ul>
+
+---
+
+
 ### IM2/SLS Software Updates Related
 
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
