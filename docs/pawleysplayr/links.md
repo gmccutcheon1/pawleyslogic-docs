@@ -127,6 +127,18 @@ search:
     </div>
   </li>
   
+  
+      <li>
+    <div>
+      <strong>IM2/SensorLab Thermocouple BathLevel Configuration:</strong><br>
+      Thermocouple Bath Level Detection (SensorLab): Step-by-step guide to configuring temperature-rise bath level <br>
+	  parameters and verifying detection by monitoring the Bath Level status bit (status-bit only commissioning)..<br>
+      <a href="/downloads/sls/SensorLab Thermocouple BathLevel.pdf">
+        SensorLab Thermocouple BathLevel.pdf
+      </a>
+    </div>
+  </li>
+  
     <li>
     <div>
       <strong>IM2/SensorLab Celox BathLevel EMF — Licensing Procedure (PDF):</strong><br>
@@ -193,8 +205,8 @@ search:
       <strong>SensorLab — Status Word Endianness Explained (Output Registers vs. Custom Telegrams):</strong><br>
       Why some SLS fields decode little-endian while status words don’t: this note documents that Output Register status words <br>
 	  are always big-endian, but Custom Telegram status words are always little-endian. .<br>
-      <a href="/downloads/sls/SensorLab Status Word Endianness Inconsistancy.pdf">
-        SensorLab Status Word Endianness Inconsistancy.pdf
+      <a href="/downloads/sls/SensorLab Status Word Endianness Inconsistency.pdf">
+        SensorLab Status Word Endianness Inconsistency.pdf
       </a>
     </div>
   </li>
