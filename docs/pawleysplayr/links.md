@@ -412,6 +412,33 @@ search:
 
 </ul>
 
+### Hydris AOIs and Telegrams
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+
+  <li>
+    <div>
+      <strong>HEN_HydrisParser_Hyd2PLC_AOI:</strong><br>
+      Studio 5000 v20 Add-On Instruction (L5X) for Hydris/HydroVAS using “Industrial Output Telegram PLCAligned – Low Byte v1” (Hydris→PLC).<br>
+	  Direct overlay/COP into a matching UDT with clean status/state/error/result tags and derived BOOLs for robot/automation logic.<br>
+      <a href="/downloads/hydris/HEN_HydrisParser_Hyd2PLC_AOI_v.3.2.zip">
+        HEN_HydrisParser_Hyd2PLC_AOI_v.3.2.zip
+      </a>
+    </div>
+  </li>
+  
+  <li>
+    <div>
+      <strong>Industrial_Output_Telegram_PLCAligned_Low_Byte_v1:</strong><br>
+      Hydris industrial output telegram “Industrial Output Telegram PLCAligned – Low Byte v1” (Hydris→PLC, little-endian)<br>
+	  reordered for ControlLogix 4-byte alignment—enabling direct overlay/COP into a UDT with no repack/SWPB workarounds.<br>
+      <a href="/downloads/hydris/Industrial_Output_Telegram_PLCAligned_Low_Byte_v1.zip">
+        Industrial_Output_Telegram_PLCAligned_Low_Byte_v1.zip
+      </a>
+    </div>
+  </li>
+
+</ul>
 ---
 
 
