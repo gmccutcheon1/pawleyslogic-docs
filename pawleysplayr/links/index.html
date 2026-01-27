@@ -991,7 +991,7 @@
   <li>
     <div>
       <strong>SLS Example PLC Output Register AOI Use Rev2:</strong><br>
-      Hands-on guide to using the SLSRegisterAssembler_CLX34 AOI with CompactLogix/ControlLogix: shows how to import the AOI, <br>
+      Hands-on guide to using the SLSRegisterAssembler_CLX34 AOI (updated to HEN_SLSParser_SLS2PLC_AOI_v2.1) with CompactLogix/ControlLogix: shows how to import the AOI, <br>
       map the SLS 130-byte :I.Data array, create SLSParsedDataSet result tags (per station), verify parsed fields, and configure <br>
       a Generic EtherNet/IP module—includes a Loom demo link..<br>
       <a href="/downloads/sls/SLS Example PLC Output Register AOI Use Rev2.pdf">
@@ -1002,24 +1002,24 @@
 
   <li>
     <div>
-      <strong>HEN_CTWE5Parser_CLX34_AOI.zip:</strong><br>
-      Studio 5000 v34 Add-On Instruction pack for SensorLab Steel (SLS) to CompactLogix/ControlLogix: includes AOI + UDTs <br>
-      to parse the Generic EtherNet/IP input array into structured tags (measurements, status/alarms, timestamp, IDs), <br>
-      with a sample project/rungs and a brief tag-mapping guide for fast drop-in integration.<br>
-      <a href="/downloads/sls/SLS CLX Add-On Instruction/SLS_INT130_RegisterAssembler_CLX34_AOI.zip">
-        SLS_INT130_RegisterAssembler_CLX34_AOI.zip
+      <strong>HEN_SLSParser_SLS2PLC_AOI_v2.1:</strong><br>
+      Studio 5000 Add-On Instruction pack for SensorLab Steel (SLS) to CompactLogix/ControlLogix: Parses the INT[130] input byte array<br> 
+      from a Heraeus SLS whose EIP output communication is configured to <USE REGISTERS> into 2 user defined udt_SLS_OutputReg structures,<br> 
+      one per StationID. Requires SLS Output Registers Low-byte first.<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/AOIs/HEN_SLSParser_SLS2PLC_AOI_v2.1.zip">
+        HEN_SLSParser_SLS2PLC_AOI_v2.1.zip
       </a>
     </div>
   </li>
 
   <li>
     <div>
-      <strong>HEN_CTWE5Parser_CLX32_AOI.zip:</strong><br>
-      Studio 5000 v32 Add-On Instruction pack for SensorLab Steel (SLS) to CompactLogix/ControlLogix: includes AOI + UDTs <br>
-      to parse the Generic EtherNet/IP input array into structured tags (measurements, status/alarms, timestamp, IDs), <br>
-      with a sample project/rungs and a brief tag-mapping guide for fast drop-in integration.<br>
-      <a href="/downloads/sls/SLS CLX Add-On Instruction/SLS_INT130_RegisterAssembler_CLX32_AOI.zip">
-        SLS_INT130_RegisterAssembler_CLX32_AOI.zip
+      <strong>HEN_SLSWriter_PLC2SLS_AOI_v1.0:</strong><br>
+      Studio 5000 Add-On Instruction pack for SensorLab Steel (SLS) to CompactLogix/ControlLogix: Packs PLC write data into the<br>
+      SensorLab Steel (SLS) EtherNet/IP Output Assembly (INT[130]) to write SLS Input Registers (PLC → SLS). Supports Station 1 and Station 2<br>
+      datasets. Requires SLS Input Registers configured Low-byte first.<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/AOIs/HEN_SLSWriter_PLC2SLS_AOI_v1.0.zip">
+        HEN_SLSWriter_PLC2SLS_AOI_v1.0.zip
       </a>
     </div>
   </li>
@@ -1063,8 +1063,8 @@
       <strong>HEN_HydrisParser_Hyd2PLC_AOI:</strong><br>
       Studio 5000 v20 Add-On Instruction (L5X) for Hydris/HydroVAS using “Industrial Output Telegram PLCAligned – Low Byte v1” (Hydris→PLC).<br>
       Direct overlay/COP into a matching UDT with clean status/state/error/result tags and derived BOOLs for robot/automation logic.<br>
-      <a href="/downloads/hydris/HEN_HydrisParser_Hyd2PLC_AOI_v.3.2.zip">
-        HEN_HydrisParser_Hyd2PLC_AOI_v.3.2.zip
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/HEN_HydrisParser_Hyd2PLC_AOI_v3.2.zip">
+        HEN_HydrisParser_Hyd2PLC_AOI_v3.2.zip
       </a>
     </div>
   </li>
@@ -1074,7 +1074,7 @@
       <strong>Industrial_Output_Telegram_PLCAligned_Low_Byte_v1:</strong><br>
       Hydris industrial output telegram “Industrial Output Telegram PLCAligned – Low Byte v1” (Hydris→PLC, little-endian)<br>
       reordered for ControlLogix 4-byte alignment—enabling direct overlay/COP into a UDT with no repack/SWPB workarounds.<br>
-      <a href="/downloads/hydris/Industrial_Output_Telegram_PLCAligned_Low_Byte_v1.zip">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/Industrial_Output_Telegram_PLCAligned_Low_Byte_v1.zip">
         Industrial_Output_Telegram_PLCAligned_Low_Byte_v1.zip
       </a>
     </div>
@@ -1320,7 +1320,7 @@
             <li>CasTemp (Windows)</li>
             <li>DTE/Celox E4</li>
          </ul>
-      <a href="/downloads/eds/m30/005A0000002E0100.zip">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/eds/M30/005A0000002E0100.zip">
         Anybus CompactCom M30 EDS File 005A0000002E0100.zip
       </a>
 
@@ -1337,7 +1337,7 @@
             <li>CasTemp E5</li>
             <li>DTE E5</li>
          </ul>
-      <a href="/downloads/eds/m40/005A002B00370100.zip">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/eds/M40/005A002B00370100.zip">
         Anybus CompactCom M40 EDS File 005A002B00370100.zip
       </a>
 
@@ -1359,7 +1359,7 @@
             <li>CasTemp E5</li>
             <li>DTE E5</li>
          </ul>     
-      <a href="/downloads/gsdml/GSDML-V2.33-Heraeus-ABCC40-PIR-20180907.zip">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/gsdml/GSDML-V2.33-Heraeus-ABCC40-PIR-20180907.zip">
         GSDML-V2.33-Heraeus-ABCC40-PIR-20180907.zip
       </a>
 
