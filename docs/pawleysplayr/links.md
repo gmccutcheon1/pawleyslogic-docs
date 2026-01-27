@@ -372,7 +372,7 @@ search:
       Studio 5000 Add-On Instruction pack for SensorLab Steel (SLS) to CompactLogix/ControlLogix: Packs PLC write data into the<br>
 	  SensorLab Steel (SLS) EtherNet/IP Output Assembly (INT[130]) to write SLS Input Registers (PLC → SLS). Supports Station 1 and Station 2<br>
 	  datasets. Requires SLS Input Registers configured Low-byte first.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/AOIs/HEN_SLSWriter_PLC2SLS_AOI_v1.0.zip">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/AOIs/HEN_SLSWriter_PLC2SLS_AOI_v1.0.zip" download>
         HEN_SLSWriter_PLC2SLS_AOI_v1.0.zip
       </a>
     </div>
