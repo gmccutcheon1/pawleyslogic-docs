@@ -348,7 +348,7 @@ search:
       Hands-on guide to using the SLSRegisterAssembler_CLX34 AOI (updated to HEN_SLSParser_SLS2PLC_AOI_v2.1) with CompactLogix/ControlLogix: shows how to import the AOI, <br>
 	  map the SLS 130-byte :I.Data array, create SLSParsedDataSet result tags (per station), verify parsed fields, and configure <br>
 	  a Generic EtherNet/IP module—includes a Loom demo link..<br>
-      <a href="/downloads/sls/SLS Example PLC Output Register AOI Use Rev2.pdf">
+      <a href="/downloads/sls/SLS Example PLC Output Register AOI Use Rev2.pdf" download>
         SLS Example PLC Output Register AOI Use Rev2.pdf
       </a>
     </div>
