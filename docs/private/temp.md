@@ -6,7 +6,9 @@ hide:
 search:
   exclude: true
 meta:
-  robots: noindex, nofollow
+  - name: robots
+    content: noindex, nofollow
+
 ---
 
 # Temporary Shared Page
