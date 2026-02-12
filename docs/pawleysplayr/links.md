@@ -356,12 +356,12 @@ search:
 
   <li>
     <div>
-      <strong>HEN_SLSParser_SLS2PLC_AOI_v2.1:</strong><br>
+      <strong>HEN_SLSParser_SLS2PLC_AOI_v2.2:</strong><br>
       Studio 5000 Add-On Instruction pack for SensorLab Steel (SLS) to CompactLogix/ControlLogix: Parses the INT[130] input byte array<br> 
 	  from a Heraeus SLS whose EIP output communication is configured to <USE REGISTERS> into 2 user defined udt_SLS_OutputReg structures,<br> 
 	  one per StationID. Requires SLS Output Registers Low-byte first.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/AOIs/HEN_SLSParser_SLS2PLC_AOI_v2.1.zip" download>
-        HEN_SLSParser_SLS2PLC_AOI_v2.1.zip
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/AOIs/HEN_SLSParser_SLS2PLC_AOI_v2.2.zip" download>
+        HEN_SLSParser_SLS2PLC_AOI_v2.2.zip
       </a>
     </div>
   </li>
