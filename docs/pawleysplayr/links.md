@@ -776,10 +776,6 @@ search:
 
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
 
-  <li>
-
-    </div>
-  </li>
 
   <li>
     <div>
