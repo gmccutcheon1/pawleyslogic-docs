@@ -774,7 +774,25 @@ search:
 ---
 ### E4 Add-Ons FBs and UDTs
 
+---
+
+#### E4 ControlLogix Add-Ons
+
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+
+  <li>
+    <div>
+      <strong>HEN_E4DTEParser_DTE2PLC_AOI_v1_0:</strong><br>
+      Studio 5000 Add-On Instruction pack for DigiTemp E4 (DTE E4) to CompactLogix/ControlLogix: Parses the DigiTemp EtherNet/IP <br>
+	  SINT input byte buffer (Status header + US Telegram 7) and reassembles data into a PLC-friendly Results UDT (status bits, <br>
+	  TMP, CJ, date/time, error bytes, heat number, and instrument + PLC timestamps). <br>
+	  Requires instrument configured for Telegram Bus = 7 and Status Bus = Yes.<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/e4/HEN_E4DTEParser_DTE2PLC_AOI_v1_0.zip">
+        HEN_E4DTEParser_DTE2PLC_AOI_v1_0.zip
+      </a>
+    </div>
+  </li>
 
 
   <li>
@@ -782,7 +800,8 @@ search:
       <strong>HEN_E4CLXParser_CLX2PLC_AOI_v1_0:</strong><br>
       Studio 5000 Add-On Instruction pack for Celox Lab E4 to CompactLogix/ControlLogix: Parses the E4 EtherNet/IP <br>
 	  SINT[128] input (Status header + Telegram 6) and reassembles data into a PLC-friendly Results UDT (status bits, <br>
-	  TMP/EMF/O(ppm)/AL/C/CJ, heat number, instrument + PLC timestamps). Requires Telegram Bus = 6 and Status Bus = Yes.<br>
+	  TMP/EMF/O(ppm)/AL/C/CJ, date/time, error bytes, heat number, and instrument + PLC timestampss). <br>
+	  Requires Telegram Bus = 6 and Status Bus = Yes.<br>
       <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/e4/HEN_E4CLXParser_CLX2PLC_AOI_v1_0.zip">
         HEN_E4CLXParser_CLX2PLC_AOI_v1_0.zip
       </a>
