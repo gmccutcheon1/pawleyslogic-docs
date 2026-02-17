@@ -683,70 +683,6 @@ search:
 
 ---
 
-## EDS/GSDML Related
-
-### Allen-Bradley
-
-<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
-
-  <li>
-    <div>
-      <strong>Anybus CompactCom M30 EDS File 005A0000002E0100:</strong><br>
-       The Anybus ABCC CompactCom EtherNet/IP (M30) EDS File 005A0000002E0100 for EIP communication..<br>
-	     <ul>Instruments:
-			<li>CasTemp (Windows)</li>
-			<li>DTE/Celox E4</li>
-		 </ul>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/eds/M30/005A0000002E0100.zip">
-        Anybus CompactCom M30 EDS File 005A0000002E0100.zip
-      </a>
-
-    </div>
-  </li>
-
-  <li>
-    <div>
-      <strong>Anybus CompactCom M40 EDS File 005A002B00370100:</strong><br>
-       The Anybus ABCC CompactCom 40 EtherNet/IP EDS File 005A002B00370100 for EIP communication..<br>
-	     <ul>Instruments:
-			<li>CoreTemp</li>
-			<li>Hydris/HydroVAS</li>
-			<li>CasTemp E5</li>
-			<li>DTE E5</li>
-		 </ul>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/eds/M40/005A002B00370100.zip">
-        Anybus CompactCom M40 EDS File 005A002B00370100.zip
-      </a>
-
-    </div>
-  </li>
-
-</ul>
-
-### Siemens
-<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
-
-  <li>
-    <div>
-      <strong>Anybus CompactCom PROFINET M40 module File gsdml-v2.33-heraeus-abcc40-pir-20180907.xml:</strong><br>
-       The Anybus ABCC40-PIR CompactCom PROFINET M40 module File gsdml-v2.33-heraeus-abcc40-pir-20180907.xml for ProfiNet communication..<br>
-	     <ul>Instruments:
-			<li>CoreTemp</li>
-			<li>Hydris/HydroVAS</li>
-			<li>CasTemp E5</li>
-			<li>DTE E5</li>
-		 </ul>	   
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/gsdml/GSDML-V2.33-Heraeus-ABCC40-PIR-20180907.zip">
-        GSDML-V2.33-Heraeus-ABCC40-PIR-20180907.zip
-      </a>
-
-    </div>
-  </li>
-
-
-
-</ul>
----
 
 
 ## E4 Related
@@ -813,4 +749,70 @@ search:
 </ul>
 
 
+---
+
+
+## EDS/GSDML Related
+
+### Allen-Bradley
+
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+  <li>
+    <div>
+      <strong>Anybus CompactCom M30 EDS File 005A0000002E0100:</strong><br>
+       The Anybus ABCC CompactCom EtherNet/IP (M30) EDS File 005A0000002E0100 for EIP communication..<br>
+	     <ul>Instruments:
+			<li>CasTemp (Windows)</li>
+			<li>DTE/Celox E4</li>
+		 </ul>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/eds/M30/005A0000002E0100.zip">
+        Anybus CompactCom M30 EDS File 005A0000002E0100.zip
+      </a>
+
+    </div>
+  </li>
+
+  <li>
+    <div>
+      <strong>Anybus CompactCom M40 EDS File 005A002B00370100:</strong><br>
+       The Anybus ABCC CompactCom 40 EtherNet/IP EDS File 005A002B00370100 for EIP communication..<br>
+	     <ul>Instruments:
+			<li>CoreTemp</li>
+			<li>Hydris/HydroVAS</li>
+			<li>CasTemp E5</li>
+			<li>DTE E5</li>
+		 </ul>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/eds/M40/005A002B00370100.zip">
+        Anybus CompactCom M40 EDS File 005A002B00370100.zip
+      </a>
+
+    </div>
+  </li>
+
+</ul>
+
+### Siemens
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+  <li>
+    <div>
+      <strong>Anybus CompactCom PROFINET M40 module File gsdml-v2.33-heraeus-abcc40-pir-20180907.xml:</strong><br>
+       The Anybus ABCC40-PIR CompactCom PROFINET M40 module File gsdml-v2.33-heraeus-abcc40-pir-20180907.xml for ProfiNet communication..<br>
+	     <ul>Instruments:
+			<li>CoreTemp</li>
+			<li>Hydris/HydroVAS</li>
+			<li>CasTemp E5</li>
+			<li>DTE E5</li>
+		 </ul>	   
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/gsdml/GSDML-V2.33-Heraeus-ABCC40-PIR-20180907.zip">
+        GSDML-V2.33-Heraeus-ABCC40-PIR-20180907.zip
+      </a>
+
+    </div>
+  </li>
+
+
+
+</ul>
 ---
