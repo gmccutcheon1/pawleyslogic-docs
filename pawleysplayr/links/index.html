@@ -585,39 +585,6 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#edsgsdml-related" class="md-nav__link">
-    <span class="md-ellipsis">
-      EDS/GSDML Related
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="EDS/GSDML Related">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#allen-bradley" class="md-nav__link">
-    <span class="md-ellipsis">
-      Allen-Bradley
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#siemens" class="md-nav__link">
-    <span class="md-ellipsis">
-      Siemens
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#e4-related" class="md-nav__link">
     <span class="md-ellipsis">
       E4 Related
@@ -657,6 +624,39 @@
         
       </ul>
     </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#edsgsdml-related" class="md-nav__link">
+    <span class="md-ellipsis">
+      EDS/GSDML Related
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="EDS/GSDML Related">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#allen-bradley" class="md-nav__link">
+    <span class="md-ellipsis">
+      Allen-Bradley
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#siemens" class="md-nav__link">
+    <span class="md-ellipsis">
+      Siemens
+    </span>
+  </a>
   
 </li>
         
@@ -1323,6 +1323,65 @@
 </ul>
 
 <hr />
+<h2 id="e4-related">E4 Related</h2>
+<h3 id="documents-and-help-files_3">Documents and Help Files</h3>
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+  <li>
+    <div>
+      <strong>DTE E4 PROFINET Notes (Testing-Only):</strong><br>
+      A quick-start guide for connecting the DTE E4 to Siemens via PROFINET—suggested instrument parameters, <br>
+      TIA Portal device config (e.g., 32×4-byte inputs), status/error byte mapping, and example UDT + FB logic <br>
+      for byte-swap/struct overlay, with screenshots.<br>
+      <a href="/downloads/e4/DTE E4 Profinet Notes .pdf">
+        DTE E4 Profinet Notes
+      </a>
+    </div>
+  </li>
+
+
+
+</ul>
+
+<hr />
+<h3 id="e4-add-ons-fbs-and-udts">E4 Add-Ons FBs and UDTs</h3>
+<hr />
+<h4 id="e4-controllogix-add-ons">E4 ControlLogix Add-Ons</h4>
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+
+  <li>
+    <div>
+      <strong>HEN_E4DTEParser_DTE2PLC_AOI_v1_0:</strong><br>
+      Studio 5000 Add-On Instruction pack for DigiTemp E4 (DTE E4) to CompactLogix/ControlLogix: Parses the DigiTemp EtherNet/IP <br>
+      SINT input byte buffer (Status header + US Telegram 7) and reassembles data into a PLC-friendly Results UDT (status bits, <br>
+      TMP, CJ, date/time, error bytes, heat number, and instrument + PLC timestamps). <br>
+      Requires instrument configured for Telegram Bus = 7 and Status Bus = Yes.<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/e4/HEN_E4DTEParser_DTE2PLC_AOI_v1_0.zip">
+        HEN_E4DTEParser_DTE2PLC_AOI_v1_0.zip
+      </a>
+    </div>
+  </li>
+
+
+  <li>
+    <div>
+      <strong>HEN_E4CLXParser_CLX2PLC_AOI_v1_0:</strong><br>
+      Studio 5000 Add-On Instruction pack for Celox Lab E4 to CompactLogix/ControlLogix: Parses the E4 EtherNet/IP <br>
+      SINT[128] input (Status header + Telegram 6) and reassembles data into a PLC-friendly Results UDT (status bits, <br>
+      TMP/EMF/O(ppm)/AL/C/CJ, date/time, error bytes, heat number, and instrument + PLC timestampss). <br>
+      Requires Telegram Bus = 6 and Status Bus = Yes.<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/e4/HEN_E4CLXParser_CLX2PLC_AOI_v1_0.zip">
+        HEN_E4CLXParser_CLX2PLC_AOI_v1_0.zip
+      </a>
+    </div>
+  </li>
+
+
+
+</ul>
+
+<hr />
 <h2 id="edsgsdml-related">EDS/GSDML Related</h2>
 <h3 id="allen-bradley">Allen-Bradley</h3>
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
@@ -1384,65 +1443,6 @@
 
 
 </ul>
-<hr />
-<h2 id="e4-related">E4 Related</h2>
-<h3 id="documents-and-help-files_3">Documents and Help Files</h3>
-<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
-
-  <li>
-    <div>
-      <strong>DTE E4 PROFINET Notes (Testing-Only):</strong><br>
-      A quick-start guide for connecting the DTE E4 to Siemens via PROFINET—suggested instrument parameters, <br>
-      TIA Portal device config (e.g., 32×4-byte inputs), status/error byte mapping, and example UDT + FB logic <br>
-      for byte-swap/struct overlay, with screenshots.<br>
-      <a href="/downloads/e4/DTE E4 Profinet Notes .pdf">
-        DTE E4 Profinet Notes
-      </a>
-    </div>
-  </li>
-
-
-
-</ul>
-
-<hr />
-<h3 id="e4-add-ons-fbs-and-udts">E4 Add-Ons FBs and UDTs</h3>
-<hr />
-<h4 id="e4-controllogix-add-ons">E4 ControlLogix Add-Ons</h4>
-<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
-
-
-  <li>
-    <div>
-      <strong>HEN_E4DTEParser_DTE2PLC_AOI_v1_0:</strong><br>
-      Studio 5000 Add-On Instruction pack for DigiTemp E4 (DTE E4) to CompactLogix/ControlLogix: Parses the DigiTemp EtherNet/IP <br>
-      SINT input byte buffer (Status header + US Telegram 7) and reassembles data into a PLC-friendly Results UDT (status bits, <br>
-      TMP, CJ, date/time, error bytes, heat number, and instrument + PLC timestamps). <br>
-      Requires instrument configured for Telegram Bus = 7 and Status Bus = Yes.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/e4/HEN_E4DTEParser_DTE2PLC_AOI_v1_0.zip">
-        HEN_E4DTEParser_DTE2PLC_AOI_v1_0.zip
-      </a>
-    </div>
-  </li>
-
-
-  <li>
-    <div>
-      <strong>HEN_E4CLXParser_CLX2PLC_AOI_v1_0:</strong><br>
-      Studio 5000 Add-On Instruction pack for Celox Lab E4 to CompactLogix/ControlLogix: Parses the E4 EtherNet/IP <br>
-      SINT[128] input (Status header + Telegram 6) and reassembles data into a PLC-friendly Results UDT (status bits, <br>
-      TMP/EMF/O(ppm)/AL/C/CJ, date/time, error bytes, heat number, and instrument + PLC timestampss). <br>
-      Requires Telegram Bus = 6 and Status Bus = Yes.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/e4/HEN_E4CLXParser_CLX2PLC_AOI_v1_0.zip">
-        HEN_E4CLXParser_CLX2PLC_AOI_v1_0.zip
-      </a>
-    </div>
-  </li>
-
-
-
-</ul>
-
 <hr />
 
 
