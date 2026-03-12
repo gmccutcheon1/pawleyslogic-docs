@@ -295,17 +295,7 @@ search:
     </div>
   </li>
 
-  <li>
-    <div>
-      <strong>Siemens Step 7 iM2/SLS Beckhoff ProfiNet Configuration:</strong><br>
-      Step-by-step guide for connecting a Heraeus iM2 / SensorLab Steel (SLS) to a Siemens PLC over ProfiNet using the Beckhoff EL6631. <br>
-	  Covers SLS-side telegram setup, High Byte First result formatting for Siemens, GSD installation in Step 7, adding the EL6631 and <br>
-	  100 WORD I/O module, setting addresses, downloading hardware config, and monitoring live data in a variable table.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/iM2_SLS+Beckhoff+Profinet+Configuration+Step+7.pdf">
-        iM2_SLS Beckhoff Profinet Configuration Step 7.pdf
-      </a>
-    </div>
-  </li>
+
 
 </ul>
 
@@ -817,24 +807,6 @@ search:
 		 </ul>	   
       <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/gsdml/GSDML-V2.33-Heraeus-ABCC40-PIR-20180907.zip">
         GSDML-V2.33-Heraeus-ABCC40-PIR-20180907.zip
-      </a>
-
-    </div>
-  </li>
-  
-  
-    <li>
-    <div>
-      <strong>Beckhoff EL6631 GSDML for IM²/SensorLab Steel (GSDML-V2.33-beckhoff-EL6631-20200116.xml.zip):</strong><br>
-       Beckhoff EL6631 GSDML for Siemens Step 7 (ProfiNet):<br>
-	   GSDML file package for installing the Beckhoff EL6631 ProfiNet device description into Siemens Step 7 hardware configuration. <br>
-	   Use this file to create the EL6631 hardware image, add the ProfiNet IO device to the PLC project, and map the required <br>
-	   100 WORD input/output module for Heraeus iM2 / SensorLab Steel (SLS) communications..<br>
-	     <ul>Instruments:
-			<li>IM²/SensorLab Steel</li>
-		 </ul>	   
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/gsdml/GSDML-V2.33-beckhoff-EL6631-20200116.xml.zip">
-        GSDML-V2.33-beckhoff-EL6631-20200116.xml.zip
       </a>
 
     </div>
