@@ -16,11 +16,23 @@ search:
 
   <li>
     <div>
+      <strong>Simple field guide to verify the operating system on SLS/iM2 units:</strong><br>
+      This guide develooped by I.Toros outlines a simple method to determine the operating system version (Windows 7 vs. Windows 10) on SensorLab (SLS) <br>
+	  and iM2 instruments by navigating to the “About” screen and verifying the OS string..<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/SLS+W7+vs+W10+Identification.pdf">
+        SLS W7 vs W10 Identification.pdf
+      </a>
+    </div>
+  </li>
+
+
+  <li>
+    <div>
       <strong>SLS Internal Ethernet Wiring Diagram - For Different L2 Option:</strong><br>
       Internal Ethernet wiring reference for SensorLab Steel (SLS): shows LAN1/LAN2 routing on the BYT CPU, <br>
 	  external LAN/option connectors, ADC/EK1100 backplane, and Beckhoff terminals for each L2 option—<br>
 	  A) none, B) EtherNet/IP, C) Modbus TCP, D) Profinet (EL6631).<br>
-      <a href="/downloads/sls/SLS Internal Ethernet Wiring Diagram - For Different L2 Option.pdf">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/SLS+Internal+Ethernet+Wiring+Diagram+-+For+Different+L2+Option.pdf">
         SLS Internal Ethernet Wiring Diagram - For Different L2 Option.pdf
       </a>
     </div>
@@ -33,7 +45,7 @@ search:
       Field guide for converting a MetNet light set to SensorLab Steel (SLS): pinouts, step-by-step re-termination <br>
 	  from the green MetNet terminal to the SLS RD24 male connector, notes on horn/blue lamp wiring, an optional <br>
 	  pre-terminated pigtail (Alpha 1898/7C + WAGO 221-2401), and a complete parts list.<br>
-      <a href="/downloads/sls/MetNet to SLS Light Set Conversion.pdf">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/MetNet+to+SLS+Light+Set+Conversion.pdf">
         MetNet to SLS Light Set Conversion.pdf
       </a>
     </div>
@@ -45,7 +57,7 @@ search:
       Wiring guide for connecting Heraeus IM2 SensorLab to the Receiver Box using CAT5/6 and DB9–RJ45 adapters: clarifies <br>
 	  that RJ45 pin 7 must map to DB9 pin 9 (not pin 4) to complete the 24 V DC return path, and includes male/female <br>
 	  DB9 diagrams for correct terminations.<br>
-      <a href="/downloads/sls/Heraeus IM2 SensorLab to Receiver Box Wiring Guide.pdf">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/Heraeus+IM2+SensorLab+to+Receiver+Box+Wiring+Guide.pdf">
         Heraeus IM2 SensorLab to Receiver Box Wiring Guide.pdf
       </a>
     </div>
@@ -57,7 +69,7 @@ search:
       Step-by-step guide to disable QUBE Wireless sleep on SensorLab Steel (SLS)—includes the exact menu path <br>
 	  (login 2448 → Settings → Configure → Basic Instrument Setup → Dual Station Setup), which option to check for <br>
 	  “Wireless via Wireless 1,” and how to save and activate the new program..<br>
-      <a href="/downloads/sls/Disable QUBE Wireless Sleep Mode on SLS.pdf">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/Disable+QUBE+Wireless+Sleep+Mode+on+SLS.pdf">
         Disable QUBE Wireless Sleep Mode on SLS.pdf
       </a>
     </div>
@@ -68,7 +80,7 @@ search:
       <strong>Disable QUBE Wireless Safety on SLS:</strong><br>
       Quick steps to disable QUBE Wireless Safety on SensorLab Steel (SLS): navigate to Settings → Wireless Safety, <br>
 	  uncheck “Wireless safety mode enabled,” then Save and commit program changes—includes annotated screenshots..<br>
-      <a href="/downloads/sls/Disable QUBE Wireless Safety on SLS.pdf">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/Disable+QUBE+Wireless+Safety+on+SLS.pdf">
         Disable QUBE Wireless Safety on SLS.pdf
       </a>
     </div>
@@ -80,7 +92,7 @@ search:
       Directions for changing the screen resolution from the operating system on SLS. <br>
 	  Quick procedure to change the SensorLab Steel (SLS) screen resolution: log in with the Daily password, <br>
 	  exit to the OS, run explorer.exe, open Control Panel → Display → Change display settings, adjust resolution, and save.<br>
-      <a href="/downloads/sls/Change SLS Screen Resolution.pdf">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/Change+SLS+Screen+Resolution.pdf">
         Change SLS Screen Resolution.pdf
       </a>
     </div>
@@ -93,7 +105,7 @@ search:
 	  BIOS-level steps to set the SensorLab Steel (SLS) display to 1024×768: enter BIOS (DEL, password 478236), <br>
 	  go to Chipset → North Bridge → IGD – LCD Control, disable Active LVDS (CH7511), <br>
 	  set CH7511 EDID Panel Option to 1024x768 18/1, then F4 to save.<br>
-      <a href="/downloads/sls/Change SLS Screen Resolution BIOS Settings.pdf">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/Change+SLS+Screen+Resolution+BIOS+Settings.pdf">
         Change SLS Screen Resolution BIOS Settings.pdf
       </a>
     </div>
@@ -107,7 +119,7 @@ search:
 	  Quick steps to show the time interval between measurements on SLS: <br>
 	  log in (password 2448), open User Settings → Display settings → Edit, check “Display interval between measurements,” and Save. <br>
 	  Note: this isn’t stored in the Settings File backup.<br>
-      <a href="/downloads/sls/Set SLS To Display Time Interval Between Measurements.pdf">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/Set+SLS+To+Display+Time+Interval+Between+Measurements.pdf">
         Set SLS To Display Time Interval Between Measurements.pdf
       </a>
     </div>
@@ -121,7 +133,7 @@ search:
 	  Quick check to confirm IM2/SLS EtherNet/IP hardware is installed: <br>
 	  log in (password 24816) → System Tools → Hardware Check → Start hardware check, then <br>
 	  scroll to ETC EtherNet/IP switch port—Status: Operational confirms the option is present.<br>
-      <a href="/downloads/sls/IM2 or SLS - Check for EIP Hardware.pdf">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/IM2+or+SLS+-+Check+for+EIP+Hardware.pdf">
         IM2 or SLS - Check for EIP Hardware.pdf
       </a>
     </div>
@@ -133,7 +145,7 @@ search:
       <strong>IM2/SensorLab Thermocouple BathLevel Configuration:</strong><br>
       Thermocouple Bath Level Detection (SensorLab): Step-by-step guide to configuring temperature-rise bath level <br>
 	  parameters and verifying detection by monitoring the Bath Level status bit (status-bit only commissioning)..<br>
-      <a href="/downloads/sls/SensorLab Thermocouple BathLevel.pdf">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/SensorLab+Thermocouple+BathLevel.pdf">
         SensorLab Thermocouple BathLevel.pdf
       </a>
     </div>
@@ -145,7 +157,7 @@ search:
       Step-by-step guide to request and apply a BathLevel EMF license on SensorLab/IM2: generate <br>
 	  and save the Hardware ID (.txt), email it to Heraeus, then load the returned license file from <br>
 	  USB via System Tools → License → Update until you see “The license is active.”.<br>
-      <a href="/downloads/sls/SLS Celox Bath Level Licensing Procedure.pdf">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/SLS+Celox+Bath+Level+Licensing+Procedure.pdf">
         SLS Celox Bath Level Licensing Procedure.pdf
       </a>
     </div>
@@ -159,7 +171,7 @@ search:
 	  How-to for updating SensorLab Steel (SLS) software: download and unzip the install package (e.g., SensorLab_v3.3.0.zip)<br>
 	  , copy to USB, log in with the Daily password, go to System Tools → Update Software, select DeployAgent.exe from the USB, <br>
 	  and follow the on-screen prompts<br>
-      <a href="/downloads/sls/SLS Software Update _Draft.pdf">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/SLS+Software+Update+_Draft.pdf">
         SLS Software Update _Draft.pdf
       </a>
 	  
@@ -173,7 +185,7 @@ search:
       Directions for installing the SLS Remote Viewer. <br>
 	  Remote Viewer setup for IM2/SensorLab Steel: download and unzip SensorLab_v3.3.0, run DeployAgent.exe, <br>
 	  apply the henmachine.reg license key, then connect (scan or by IP) over LAN—supports up to 4 remote PCs on Windows 7+.<br>
-      <a href="/downloads/sls/SLS - Installing Remote Viewer.pdf">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/SLS+-+Installing+Remote+Viewer.pdf">
         SLS - Installing Remote Viewer.pdf
       </a>
     </div>
