@@ -487,9 +487,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#hydris-aois-and-telegrams" class="md-nav__link">
+  <a href="#hydris-aoisfbs-and-telegrams" class="md-nav__link">
     <span class="md-ellipsis">
-      Hydris AOIs and Telegrams
+      Hydris AOIs/FBs and Telegrams
     </span>
   </a>
   
@@ -1091,7 +1091,7 @@
 
 </ul>
 
-<h3 id="hydris-aois-and-telegrams">Hydris AOIs and Telegrams</h3>
+<h3 id="hydris-aoisfbs-and-telegrams">Hydris AOIs/FBs and Telegrams</h3>
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
 
 
@@ -1121,11 +1121,12 @@
 
   <li>
     <div>
-      <strong>Industrial_Output_Telegram_PLCAligned_Low_Byte_v1:</strong><br>
-      Hydris industrial output telegram “Industrial Output Telegram PLCAligned – Low Byte v1” (Hydris→PLC, little-endian)<br>
-      reordered for ControlLogix 4-byte alignment—enabling direct overlay/COP into a UDT with no repack/SWPB workarounds.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/Industrial_Output_Telegram_PLCAligned_Low_Byte_v1.zip">
-        Industrial_Output_Telegram_PLCAligned_Low_Byte_v1.zip
+      <strong>IHydris_Industrial_Output_Telegrams_PLCAligned_v1_High_Byte_and_Low_Byte::</strong><br>
+      Hydris industrial output telegram package containing both PLC-aligned variants of the “Industrial Output Telegram PLCAligned v1” definitions: <br>
+      High Byte v1 and Low Byte v1. These Hydris→PLC telegrams preserve the same field structure and byte offsets while providing either big-endian or <br>
+      little-endian multibyte formatting, reordered for clean PLC-side 4-byte alignment and easier direct overlay into controller data structures with minimal parsing workarounds.<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/Hydris+Industrial+Output+Telegrams+PLCAligned+v1+-+High+Byte+and+Low+Byte+-+04022026.zip">
+        Hydris Industrial Output Telegrams PLCAligned v1 - High Byte and Low Byte - 04022026.zip
       </a>
     </div>
   </li>
