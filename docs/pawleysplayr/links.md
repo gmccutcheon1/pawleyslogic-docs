@@ -434,7 +434,7 @@ search:
 
 </ul>
 
-### Hydris AOIs/FBs and Telegrams
+### ### Hydris PLC Integration (AOIs / Siemens FCs / Telegrams)
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
 
 
@@ -462,6 +462,34 @@ search:
     </div>
   </li>
   
+  
+  <li>
+  <div>
+    <strong>Hydris_Siemens_TIA_Portal_Integration_v1:</strong><br>
+    Step-by-step integration guide for Siemens TIA Portal (v18) using the FC_HEN_HydrisParser_Hyd2PLC parser.<br>
+    Covers source import, UDT generation, overlay tag mapping, Data Block structure, ladder call implementation, and live monitoring of parsed and derived values.<br>
+    Includes configuration notes for byte-aligned telegrams, byte order requirements, and correct input address mapping.<br>
+    <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/Hydris+Siemens+Tia+Portal+Integration+v1.pdf">
+      Hydris Siemens Tia Portal Integration v1.pdf
+    </a>
+  </div>
+</li>
+
+
+<li>
+  <div>
+    <strong>HEN_HydrisParser_Hyd2PLC_Siemens_FC:</strong><br>
+    Siemens TIA Portal SCL function (FC) and supporting UDTs for parsing Hydris/HydroVAS data using PLC-aligned output telegrams.<br>
+    Designed for direct overlay of the Hydris input image into a structured UDT with clean parsed values and derived BOOLs for automation logic.<br>
+    Includes FC_HEN_HydrisParser_Hyd2PLC.scl and associated UDT definitions for Parsed and Derived result structures.<br>
+    <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/HEN_Hydris_Siemens_FC_v1_0.zip">
+      HEN_Hydris_Siemens_FC_v1_0.zip
+    </a>
+  </div>
+</li>
+  
+  
+  
   <li>
     <div>
       <strong>Hydris_Industrial_Output_Telegrams_PLCAligned_v1_High_Byte_and_Low_Byte:</strong><br>
@@ -485,6 +513,9 @@ search:
 	
 	
   </li>
+  
+  
+  
 
 </ul>
 ---
