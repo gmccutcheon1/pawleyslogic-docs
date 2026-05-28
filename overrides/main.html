@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  {% if page and page.url and page.url.startswith("pawleysplayr/links/") %}
+    <meta name="robots" content="noindex, nofollow, noarchive">
+  {% endif %}
+{% endblock %}

@@ -1,45 +1,25 @@
-site_name: Pawleys Logic* Heraeus Electro-Nite Downloads and Documentation
+site_name: Pawleys Logic
 site_url: https://pawleyslogic.com
+
 theme:
   name: material
+  custom_dir: overrides
   palette:
-    - scheme: default  # light mode
-      primary: deep orange  # or custom below
+    - scheme: default
+      primary: deep orange
       accent: orange
-
-
-
+  features:
+    - navigation.tabs
 
 nav:
   - Home: index.md
-  - SensorLab Steel (SLS):
-      - SLS ProfiNet Output Register User Guide : instruments/sls/sls_output_register_pnet_cfg_guide.md
-  - CasTmp Wireless E5 (CTWE5):
-      - CTWE5 Add-On User Guide : instruments/HEN_CTWE5Parser_CLX34_UserGuide.md
-  - Downloads : downloads/index.md
-
-
-
-
-      
-      
-features:
-  - navigation.tabs
-
-
-
+  # Intentionally NOT in nav (still accessible by URL):
+  # pawleysplayr/links.md  -> https://pawleyslogic.com/pawleysplayr/links/
 
 markdown_extensions:
   - admonition
   - pymdownx.emoji:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
-
-
-
-
-
-    
 extra:
   include_cname: true
-
