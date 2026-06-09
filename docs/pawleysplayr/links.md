@@ -775,7 +775,7 @@ search:
 ## E4 Related
 
 ### E4 Manuals
-
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
   <li>
     <div>
       <strong>AlZin-Lab E Instrument E4 Manual v3.1:</strong><br>
@@ -796,7 +796,7 @@ search:
     </div>
   </li>
 
-
+</ul>
 
 
 
