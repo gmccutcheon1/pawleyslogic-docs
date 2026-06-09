@@ -774,6 +774,32 @@ search:
 
 ## E4 Related
 
+### E4 Manuals
+
+  <li>
+    <div>
+      <strong>AlZin-Lab E Instrument E4 Manual v3.1:</strong><br>
+      ...<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hen-manuals/AlZin-LabEInstrument_V3.1.0_en-US.pdf">
+        AlZin-LabEInstrument_V3.1.0_en-US.pdf
+      </a>
+    </div>
+  </li>
+  
+    <li>
+    <div>
+      <strong>Celox-Lab E Instrument E4 Manual v3.1:</strong><br>
+      ...<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hen-manuals/Celox-LabE+Instrument_V3.1.0_en-US_original.pdf">
+        Celox-LabE Instrument_V3.1.0_en-US_original.pdf
+      </a>
+    </div>
+  </li>
+
+
+
+
+
 ### Documents and Help Files
 
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
@@ -881,6 +907,22 @@ search:
 
 ### Siemens
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+  <li>
+    <div>
+      <strong>Anybus CompactCom PROFINET M30 module File GSDML-V2.25-E4_V703-ABCC-PRT2P-20140910.xml:</strong><br>
+       The Anybus ABCC-PRT (2-Port) CompactCom PROFINET M30 module File GSDML-V2.25-E4_V703-ABCC-PRT2P-20140910.xml for ProfiNet communication..<br>
+	     <ul>Instruments:
+			<li>DTE E4</li>
+			<li>Celox E4</li>
+			<li>AlZin-Lab E4</li>
+		 </ul>	   
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/gsdml/GSDML-V2.25-E4_V703-ABCC-PRT2P-20140910.zip">
+        GSDML-V2.25-E4_V703-ABCC-PRT2P-20140910.zip
+      </a>
+
+    </div>
+  </li>
 
   <li>
     <div>
