@@ -758,16 +758,35 @@ search:
 
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
 
-  <li>
-    <div>
-      <strong>HEN CoreTemp Siemens UDTs:</strong><br>
-      This Zip file Includes a set of PLC data types that implement a 1:1 memory image of the Level-2 industrial telegrams described in <br>
-	  the CoreTemp manual (Input telegram = data sent from PLC to CoreTemp; Output telegram = data sent from CoreTemp to PLC).<br>
-      <a href="/downloads/coretemp/HEN_CoreTemp_Siemens_UDTs.zip">
-        HEN_CoreTemp_Siemens_UDTs
-      </a>
-    </div>
-  </li>
+	<li>
+	  <div>
+		<strong>CoreTemp v3.1 / v5 Industrial Output Telegram Definitions (High & Low Byte):</strong><br>
+		Updated Level-2 Industrial Output telegram definitions for CoreTemp using the v3.1 / v5 structure (16-bit <code>MeasurementQuality</code> fields). <br>
+		Includes both High Byte First and Low Byte First variants.<br>
+		<a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/coretemp/telegrams/CoreTemp_Industrial_output_v3.1_Set.zip">
+		  CoreTemp_Industrial_output_v3.1_Set.zip
+		</a>
+	  </div>
+	</li>
+
+	<li>
+	  <div>
+		<strong>CoreTemp Siemens UDT Suite + Parser FB (TIA Portal v18+):</strong><br>
+		Complete set of Siemens TIA Portal UDTs and SCL Function Block for CoreTemp Level-2 communication. Includes:
+		<ul>
+		  <li><code>udt_CoreTemp_Tx_PLC2CT</code> – Input telegram (PLC → CoreTemp)</li>
+		  <li><code>udt_CoreTemp_Rx_CT2PLC</code> – Output telegram (CoreTemp → PLC) with Raw + Derived structures</li>
+		  <li><code>FB_HEN_COREParser_CT2PLC</code> – SCL parser with string handling, status logic, and one-shot detection</li>
+		</ul>
+		Designed for clean integration with the v3.1 / v5 Industrial Output telegram.<br>
+		<a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/coretemp/fb-udts/udt_CoreTemp_Suite_06172026.zip">
+		  udt_CoreTemp_Suite_06172026.zip
+		</a><br>
+		<a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/coretemp/fb-udts/FB_HEN_COREParser_CT2PLC_06172016.zip">
+		  FB_HEN_COREParser_CT2PLC_06172016.zip
+		</a>
+	  </div>
+	</li>
 
 </ul>
 
