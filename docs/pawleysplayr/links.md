@@ -729,6 +729,17 @@ search:
 
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
 
+
+  <li>
+    <div>
+      <strong>CoreTemp NA V3.2 Manual:</strong><br>
+      CoreTemp Manual .<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/coretemp/CoreTemp_NA_V3.2_EN.pdf">
+        CoreTemp_NA_V3.2_EN.pdf
+      </a>
+    </div>
+  </li>
+
   <li>
     <div>
       <strong>CoreTemp Level-2 Telegram UDTs (TIA Portal) — Setup & Usage:</strong><br>
