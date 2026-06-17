@@ -378,8 +378,8 @@ This page is not listed in the site navigation and is excluded from site search.
 
 	<li>
 	  <div>
-		<strong>CoreTemp v3.1 / v5 Industrial Output Telegram Definitions (High & Low Byte):</strong><br>
-		Updated Level-2 Industrial Output telegram definitions for CoreTemp using the v3.1 / v5 structure (16-bit <code>MeasurementQuality</code> fields). <br>
+		<strong>CoreTemp v3.1 Industrial Output Telegram Definitions (High & Low Byte):</strong><br>
+		Updated Level-2 Industrial Output telegram definitions for CoreTemp using the v3.1 structure (16-bit <code>MeasurementQuality</code> fields). <br>
 		Includes both High Byte First and Low Byte First variants.<br>
 		<a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/coretemp/telegrams/CoreTemp_Industrial_output_v3.1_Set.zip">
 		  CoreTemp_Industrial_output_v3.1_Set.zip
@@ -396,7 +396,7 @@ This page is not listed in the site navigation and is excluded from site search.
 		  <li><code>udt_CoreTemp_Rx_CT2PLC</code> – Output telegram (CoreTemp → PLC) with Raw + Derived structures</li>
 		  <li><code>FB_HEN_COREParser_CT2PLC</code> – SCL parser with string handling, status logic, and one-shot detection</li>
 		</ul>
-		Designed for clean integration with the v3.1 / v5 Industrial Output telegram.<br>
+		Designed for clean integration with the v3.1 Industrial Output telegram.<br>
 		<a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/coretemp/fb-udts/udt_CoreTemp_Suite_06172026.zip">
 		  udt_CoreTemp_Suite_06172026.zip
 		</a><br>
