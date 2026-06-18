@@ -471,7 +471,7 @@ search:
 
 </ul>
 
-### ### Hydris PLC Integration (AOIs / Siemens FCs / Telegrams)
+### Hydris PLC Integration (AOIs / Siemens FCs / Telegrams)
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
 
 
@@ -493,8 +493,8 @@ search:
       <strong>HEN_HydrisParser_Hyd2PLC_AOI:</strong><br>
       Studio 5000 v20 Add-On Instruction (L5X) for Hydris/HydroVAS using “Industrial Output Telegram PLCAligned – Low Byte v1” (Hydris→PLC).<br>
 	  Direct overlay/COP into a matching UDT with clean status/state/error/result tags and derived BOOLs for robot/automation logic.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/HEN_HydrisParser_Hyd2PLC_AOI_v3.2.zip">
-        HEN_HydrisParser_Hyd2PLC_AOI_v3.2.zip
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/aoi-udts/HEN_HydrisParser_Hyd2PLC_AOI_v3.3.zip">
+        HEN_HydrisParser_Hyd2PLC_AOI_v3.3.zip
       </a>
     </div>
   </li>
@@ -533,7 +533,7 @@ search:
       Hydris industrial output telegram package containing both PLC-aligned variants of the “Industrial Output Telegram PLCAligned v1” definitions: <br>
 	  High Byte v1 and Low Byte v1. These Hydris→PLC telegrams preserve the same field structure and byte offsets while providing either big-endian or <br>
 	  little-endian multibyte formatting, reordered for clean PLC-side 4-byte alignment and easier direct overlay into controller data structures with minimal parsing workarounds.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/Hydris+Industrial+Output+Telegrams+PLCAligned+v1+-+High+Byte+and+Low+Byte+-+04022026.zip">
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/telegrams/Hydris+Industrial+Output+Telegrams+PLCAligned+v1+-+High+Byte+and+Low+Byte+-+04022026.zip">
         Hydris Industrial Output Telegrams PLCAligned v1 - High Byte and Low Byte - 04022026.zip
       </a>
     </div>
