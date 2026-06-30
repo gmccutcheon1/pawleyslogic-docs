@@ -294,7 +294,7 @@ search:
       </a>
     </div>
   </li>
-</ul>
+
 
 
   <li>
@@ -306,7 +306,7 @@ search:
       </a>
     </div>
   </li>
-</ul>
+
 
 
   <li>

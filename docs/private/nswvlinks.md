@@ -145,7 +145,7 @@ This page is not listed in the site navigation and is excluded from site search.
   </li>
 
 
-</ul>
+
 
 ### IM2/SLS Software Updates Related
 
@@ -158,7 +158,7 @@ This page is not listed in the site navigation and is excluded from site search.
       </a>
     </div>
   </li>
-</ul>
+
 
 
   <li>
