@@ -110,12 +110,25 @@ This page is not listed in the site navigation and is excluded from site search.
   
    <li>
     <div>
-      <strong>SLS Remote Viewer Installation:</strong><br>
+      <strong>SLS v3.3.0 Remote Viewer Installation:</strong><br>
       Directions for installing the SLS Remote Viewer. <br>
 	  Remote Viewer setup for IM2/SensorLab Steel: download and unzip SensorLab_v3.3.0, run DeployAgent.exe, <br>
 	  apply the henmachine.reg license key, then connect (scan or by IP) over LAN—supports up to 4 remote PCs on Windows 7+.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/SLS+-+Installing+Remote+Viewer.pdf">
-        SLS - Installing Remote Viewer.pdf
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/SLS+v3.3.0+-+Installing+Remote+Viewer.pdf">
+        SLS v3.3.0 - Installing Remote Viewer.pdf
+      </a>
+    </div>
+  </li>
+  
+     <li>
+  
+      <div>
+      <strong>SLS v5.2.0 Remote Viewer Installation:</strong><br>
+      Directions for installing the SLS Remote Viewer. <br>
+	  Remote Viewer setup for IM2/SensorLab Steel: download and unzip SensorLab_v5.2.0, run DeployAgent.exe, <br>
+	  apply the henmachine.reg license key, then connect (scan or by IP) over LAN—supports up to 4 remote PCs on Windows 7+.<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/SLS+v5.2.0+-+Installing+Remote+Viewer.pdf">
+        SLS v5.2.0 - Installing Remote Viewer.pdf
       </a>
     </div>
   </li>
@@ -132,12 +145,38 @@ This page is not listed in the site navigation and is excluded from site search.
   </li>
 
 
+</ul>
 
+### IM2/SLS Software Updates Related
 
-
+  <li>
+    <div>
+      <strong>SLS v5.2.0 Installer:</strong><br>
+      SLS v5.2.0 Installer .<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/SensorLab_v5.2.0.zip">
+        SensorLab_v5.2.0.zip
+      </a>
+    </div>
+  </li>
 </ul>
 
 
+  <li>
+    <div>
+      <strong>SLS v5.2.0 Instrument Only Installer:</strong><br>
+      SLS v5.2.0 Instrument Only Installer .<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/SensorLabv5.2.0_InstrumentOnly.zip">
+        SensorLab_v5.2.0_InstumentOnly.zip
+      </a>
+    </div>
+  </li>
+</ul>
+
+
+
+
+
+---
 
 
 ### IM2/SLS ProfiNet Comms Related
