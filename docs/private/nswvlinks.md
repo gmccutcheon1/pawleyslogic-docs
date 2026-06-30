@@ -40,7 +40,15 @@ This page is not listed in the site navigation and is excluded from site search.
     </div>
   </li>
 
-
+  <li>
+    <div>
+      <strong>Simple guide save the database from an SLS/iM2 unit:</strong><br>
+      Quick field procedure for logging into SensorLab (SLS/iM2) and exporting the database file to a USB drive for backup or transfer.<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/SLS+-+Save+Database+File+to+USB+Memory+Stick.pdf">
+        SLS - Save Database File to USB Memory Stick.pdf
+      </a>
+    </div>
+  </li>
   
     <li>
     <div>
