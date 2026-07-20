@@ -615,6 +615,17 @@ search:
 
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
 
+ <li>
+    <div>
+      <strong>Castemp v7.2.0 Instrument Software Install:</strong><br>
+      Castemp v7.2.0 Instrument Software Install<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/ctw/castemp_v7.2.0_Instrument.zip">
+        castemp_v7.2.0_Instrument.zip
+      </a>
+	  
+    </div>
+  </li>
+
   <li>
     <div>
       <strong>CasTemp / CasTemp Wireless — Licensing (PDF):</strong><br>
