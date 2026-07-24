@@ -95,6 +95,21 @@ search:
     </div>
   </li>
   
+  
+  
+      <li>
+    <div>
+      <strong>SLS Probe Input Channel Settings:</strong><br>
+      Reference guide for configuring SensorLab Steel (SLS) probe input sources. Explains how to assign wireless QUBE inputs or <br>
+	  internal ADC channels to Stations A and B, including selection of the upper and lower wired probe connectors..<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/SLS+Probe+Input+Channel+Settings.pdf">
+        SLS Probe Input Channel Settings.pdf
+      </a>
+    </div>
+  </li>
+  
+  
+  
     <li>
     <div>
       <strong>Disable QUBE Wireless Safety on SLS:</strong><br>
@@ -1066,6 +1081,38 @@ search:
     </div>
   </li>
 
+
+
+</ul>
+---
+
+
+
+---
+
+
+## Other/Misc
+
+
+<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
+
+  <li>
+    <div>
+      <strong>Heraeus EIP Test Station – SLS Technician User Manual:</strong><br>
+       Technician guide for using the Heraeus EtherNet/IP Test Station to verify SensorLab Steel (SLS) communication with an <br>
+	   Allen-Bradley CompactLogix PLC. Includes test-station setup, SLS EtherNet/IP configuration, pass/fail criteria, report generation, reprinting, troubleshooting, and database notes.<br>
+	     <ul>Instruments:
+			<li>CasTemp (Windows)</li>
+			<li>DTE/Celox E4</li>
+		 </ul>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/general/Heraeus+EIP+Test+Station+-+UI+Docs+-+Draft+07242026.pdf">
+        Heraeus EIP Test Station - UI Docs - Draft 07242026.pdf
+      </a>
+
+    </div>
+  </li>
+
+ 
 
 
 </ul>
