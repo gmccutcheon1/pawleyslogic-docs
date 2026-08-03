@@ -1108,8 +1108,45 @@ search:
 
     </div>
   </li>
+  
+  
+    <li>
+    <div>
+      <strong>Heraeus EIP Test Station - SLS – OneClick Installer:</strong><br>
+       .<br>
 
- 
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/HeraeusPublish/EIPTestStationSLS.zip">
+        EIPTestStationSLS.zip
+      </a>
+
+    </div>
+  </li>
+
+     <li>
+    <div>
+      <strong>Heraeus EIP Test Station - Hydris – OneClick Installer:</strong><br>
+       .<br>
+
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/HeraeusPublish/EIPTestStationHydris.zip">
+        EIPTestStationHydris.zip
+      </a>
+
+    </div>
+  </li>
+
+
+     <li>
+    <div>
+      <strong>Heraeus EIP Test Station - Starting DB - Customer Table PArtially Prefilled:</strong><br>
+       .<br>
+
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/HeraeusPublish/TestHistory_Customers_Only.db">
+        TestHistory_Customers_Only.db
+      </a>
+
+    </div>
+  </li>
+
 
 
 </ul>
