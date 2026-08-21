@@ -1063,6 +1063,19 @@ search:
     </div>
   </li>
   
+    <li>
+    <div>
+      <strong>Anybus CompactCom PROFINET M40 module File gsdml/gsdml-v2.33-heraeus-ctw5-20230101.zip:</strong><br>
+       The Anybus ABCC40-PIR CompactCom PROFINET M40 module File gsdml-v2.33-heraeus-ctw5-20230101.zip for ProfiNet communication..<br>
+	     <ul>Instruments:
+			<li>CasTemp E5</li>
+		 </ul>	   
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/gsdml/gsdml-v2.33-heraeus-ctw5-20230101.zip">
+        GSDML-V2.33-HERAEUS-CTW-20230101.zip
+      </a>
+
+    </div>
+  </li>
   
     <li>
     <div>
