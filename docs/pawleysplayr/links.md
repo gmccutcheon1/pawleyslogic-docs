@@ -1053,8 +1053,6 @@ search:
 	     <ul>Instruments:
 			<li>CoreTemp</li>
 			<li>Hydris/HydroVAS</li>
-			<li>CasTemp E5</li>
-			<li>DTE E5</li>
 		 </ul>	   
       <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/gsdml/GSDML-V2.33-Heraeus-ABCC40-PIR-20180907.zip">
         GSDML-V2.33-Heraeus-ABCC40-PIR-20180907.zip
