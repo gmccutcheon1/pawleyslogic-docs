@@ -494,18 +494,30 @@ This page is not listed in the site navigation and is excluded from site search.
     </div>
   </li>
 
-  <li>
+   <li>
     <div>
       <strong>Anybus CompactCom PROFINET M40 module File gsdml-v2.33-heraeus-abcc40-pir-20180907.xml:</strong><br>
        The Anybus ABCC40-PIR CompactCom PROFINET M40 module File gsdml-v2.33-heraeus-abcc40-pir-20180907.xml for ProfiNet communication..<br>
 	     <ul>Instruments:
 			<li>CoreTemp</li>
 			<li>Hydris/HydroVAS</li>
-			<li>CasTemp E5</li>
-			<li>DTE E5</li>
 		 </ul>	   
       <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/gsdml/GSDML-V2.33-Heraeus-ABCC40-PIR-20180907.zip">
         GSDML-V2.33-Heraeus-ABCC40-PIR-20180907.zip
+      </a>
+
+    </div>
+  </li>
+  
+    <li>
+    <div>
+      <strong>Anybus CompactCom PROFINET M40 module File gsdml/gsdml-v2.33-heraeus-ctw5-20230101.zip:</strong><br>
+       The Anybus ABCC40-PIR CompactCom PROFINET M40 module File gsdml-v2.33-heraeus-ctw5-20230101.zip for ProfiNet communication..<br>
+	     <ul>Instruments:
+			<li>CasTemp E5</li>
+		 </ul>	   
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/gsdml/gsdml-v2.33-heraeus-ctw5-20230101.zip">
+        GSDML-V2.33-HERAEUS-CTW-20230101.zip
       </a>
 
     </div>
