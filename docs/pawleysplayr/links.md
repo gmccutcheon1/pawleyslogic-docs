@@ -253,11 +253,24 @@ search:
       <strong>Robot Immersion Control Using SensorLab Measurement Status (PDF).:</strong><br>
 		Describes a typical EAF robot immersion sequence for Heraeus Celox® probes using SensorLab GreenLight, YellowLight, and RedLight status signals, <br>
 		including immersion-depth adjustment, timeout protection, and alternative positioning strategies.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/Typical_Robot_Immersion_Control_Rev1.pdf">
-        Typical_Robot_Immersion_Control_Rev1.pdf
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/Robot_Immersion_Control_Rev1.pdf">
+        Robot_Immersion_Control_Rev1.pdf
       </a>
     </div>
   </li>
+  
+      <li>
+    <div>
+      <strong>QUBE Robot Sleep-Wake Control Guide:</strong><br>
+		Provides guidance for integrating a Heraeus QUBE wireless lance with a robot-controlled SensorLab Steel application, with emphasis on <br>
+		QUBE sleep/wake behavior, automatic-lance operation, battery considerations, and PLC readiness checks. Includes recommended and alternative <br>
+		operating strategies, relevant SLS status members, and example ControlLogix readiness logic.<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/QUBE_Robot_Sleep-Wake_Control_Guide_Rev1.pdf">
+        QUBE_Robot_Sleep-Wake_Control_Guide_Rev1.pdf
+      </a>
+    </div>
+  </li>
+  
 
   <li>
     <div>
@@ -732,7 +745,7 @@ search:
 
   <li>
     <div>
-      <strong>CTW E5 EtherNet/IP Commissioning (Rev 2, 2026-01-01):</strong><br>
+      <strong>**OBSOLETE** CTW E5 EtherNet/IP Commissioning (Rev 2, 2026-01-01):</strong><br>
       Step-by-step guide and links for connecting a CasTemp Wireless E5 to ControlLogix/CompactLogix in Studio 5000: <br>
 	  install the Anybus M40 EDS, create the module, and set PLC sizes (Input 128 bytes, Output 64 bytes). <br>
 	  Includes an optional AOI for parsing Output Telegram #10, instrument-side tips, and a quick PLC checklist..<br>  
@@ -745,7 +758,7 @@ search:
 
   <li>
     <div>
-      <strong>CTW_E5_EthernetIP_Config.pdf:</strong><br>
+      <strong>**OBSOLETE** CTW_E5_EthernetIP_Config.pdf:</strong><br>
       Short guide to configure the CasTemp Wireless E5 (CTW E5) for EtherNet/IP using the Anybus B40: includes <br>
 	  exact Level-2 menu paths, station value, I/O sizes (64 in / 128 out), recommended telegram selections (e.g., <br>
 	  Output Telegram 10 for AOI), trigger options, and save steps for Allen-Bradley/Studio 5000 integrations.<br>  
@@ -769,7 +782,7 @@ search:
 
   <li>
     <div>
-      <strong>E5_Castemp_Telegram_10.pdf:</strong><br>
+      <strong>**OBSOLETE** E5_Castemp_Telegram_10.pdf:</strong><br>
       Field-by-field reference for CasTemp Wireless E5 Superheat Output Telegram #10: lists each element <br>
 	  (e.g., MODID, BAT, DATETIME, TMP, SH, TL, PRSH, ROC, ERR/ERRLIST, RSSI, HN, GN), data types and lengths, <br>
 	  byte order (high-byte first for floats/time), plus complete sample frames in ASCII and HEX with total byte<br>
@@ -815,7 +828,7 @@ search:
 
   <li>
     <div>
-      <strong>HEN_CTWE5Parser_CLX20_AOI:</strong><br>
+      <strong>**OBSOLETE**  HEN_CTWE5Parser_CLX20_AOI:</strong><br>
       Studio 5000 v20 Add-On Instruction (L5X) for CasTemp Wireless E5 — built specifically for Output Telegram #10: <br>
 	  parses the 128-byte CTWE5:I.Data array into typed tags (datetime, temperature, superheat, TL, PRSH, ROC, <br>
 	  battery %, RSSI, error code/list, heat #, group #, module ID), with Valid/NewData/Fault status bits, included UDTs, <br>
