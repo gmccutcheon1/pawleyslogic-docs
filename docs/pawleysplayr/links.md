@@ -251,10 +251,11 @@ search:
     <li>
     <div>
       <strong>Robot Immersion Control Using SensorLab Measurement Status (PDF).:</strong><br>
-		Describes a typical EAF robot immersion sequence for Heraeus Celox® probes using SensorLab GreenLight, YellowLight, and RedLight status signals, <br>
-		including immersion-depth adjustment, timeout protection, and alternative positioning strategies.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/Robot_Immersion_Control_Rev1.pdf">
-        Robot_Immersion_Control_Rev1.pdf
+		Describes a typical EAF robot immersion sequence for Heraeus Celox® probes using SensorLab GreenLight, YellowLight, and RedLight status signals. <br>
+		Includes PLC/AOI status handling, robot-side timeout protection, immersion-depth commissioning, alternative positioning strategies, <br>
+		and recommended robot immersion speed, depth, and withdrawal practices.<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/sls/help_docs/Robot_Immersion_Control_Rev3.pdf">
+        Robot_Immersion_Control_Rev3.pdf
       </a>
     </div>
   </li>
