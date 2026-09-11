@@ -626,6 +626,19 @@ search:
       </a>
     </div>
 	
+	<div>
+	  <strong>Hydris_Industrial_Output_Telegrams_PLCAligned_v2_High_Byte_and_Low_Byte:</strong><br>
+	  Hydris industrial output telegram package containing both PLC-aligned variants of the “Industrial Output Telegram PLCAligned v2” definitions:<br>
+	  High Byte v2 and Low Byte v2. These Hydris→PLC telegrams preserve the same process-data field order while providing either big-endian or<br>
+	  little-endian multibyte formatting for Siemens and Rockwell controllers respectively. Version 2 retains the PLC-oriented alignment introduced<br>
+	  in v1 and adds two reserved padding bytes between the 6-byte TIME field and 8-byte DATE field so the final date field remains correctly aligned<br>
+	  for direct PLC data-structure mapping. The revised telegram length is 120 bytes.<br>
+	  <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/telegrams/Hydris+Industrial+Output+Telegrams+PLCAligned+v2+-+High+Byte+and+Low+Byte+-+09112026.zip">
+		Hydris Industrial Output Telegrams PLCAligned v2 - High Byte and Low Byte - 09112026.zip
+	  </a>
+	</div>
+	
+	
 	    <div>
       <strong>GM_Hydris_PLC_Aligned_Output_Telegrams_Reference:</strong><br>
       Reference guide describing the Hydris PLC-aligned industrial output telegrams and how they differ from the default Hydris output telegram documented in the manual. <br>
