@@ -1245,39 +1245,23 @@
 
   <li>
     <div>
-      <strong>Hydris_Industrial_Output_Telegrams_PLCAligned_v1_High_Byte_and_Low_Byte:</strong><br>
-      Hydris industrial output telegram package containing both PLC-aligned variants of the “Industrial Output Telegram PLCAligned v1” definitions: <br>
-      High Byte v1 and Low Byte v1. These Hydris→PLC telegrams preserve the same field structure and byte offsets while providing either big-endian or <br>
-      little-endian multibyte formatting, reordered for clean PLC-side 4-byte alignment and easier direct overlay into controller data structures with minimal parsing workarounds.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/telegrams/Hydris+Industrial+Output+Telegrams+PLCAligned+v1+-+High+Byte+and+Low+Byte+-+04022026.zip">
-        Hydris Industrial Output Telegrams PLCAligned v1 - High Byte and Low Byte - 04022026.zip
+      <strong>Hydris / HydroVAS PLCAligned v2 Output Telegrams (High Byte + Low Byte):</strong><br>
+      Current PLCAligned v2 Hydris-to-PLC output telegram package for Rockwell and Siemens integration.<br>
+      Includes Low Byte v2 for Rockwell Logix and High Byte v2 for Siemens. Version 2 retains the PLC-friendly numeric alignment<br>
+      and adds two reserved padding bytes between TIME and DATE so the final DATE field remains correctly aligned. Defined payload length is 120 bytes.<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/telegrams/Hydris+Industrial+Output+Telegrams+PLCAligned+v2+-+High+Byte+and+Low+Byte+-+09112026.zip">
+        Hydris Industrial Output Telegrams PLCAligned v2 - High Byte and Low Byte - 09112026.zip
       </a>
     </div>
-
-
-        <div>
-      <strong>GM_Hydris_PLC_Aligned_Output_Telegrams_Reference:</strong><br>
-      Reference guide describing the Hydris PLC-aligned industrial output telegrams and how they differ from the default Hydris output telegram documented in the manual. <br>
-      Includes the purpose of the new High Byte and Low Byte variants, the rationale for the PLC-aligned layout, a comparison to default Table 26 offsets, and the equivalent <br>
-      offset table for the new telegram definitions.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/GM_Hydris_PLC_Aligned_Output_Telegrams_Reference+-+04022026.pdf">
-        GM_Hydris_PLC_Aligned_Output_Telegrams_Reference - 04022026.pdf
-      </a>
-    </div>
-
-
   </li>
 
   <li>
     <div>
-      <strong>Hydris_Industrial_Output_Telegrams_PLCAligned_v2_High_Byte_and_Low_Byte:</strong><br>
-      Hydris industrial output telegram package containing both PLC-aligned variants of the “Industrial Output Telegram PLCAligned v2” definitions:<br>
-      High Byte v2 and Low Byte v2. These Hydris→PLC telegrams preserve the same process-data field order while providing either big-endian or<br>
-      little-endian multibyte formatting for Siemens and Rockwell controllers respectively. Version 2 retains the PLC-oriented alignment introduced<br>
-      in v1 and adds two reserved padding bytes between the 6-byte TIME field and 8-byte DATE field so the final date field remains correctly aligned<br>
-      for direct PLC data-structure mapping. The revised telegram length is 120 bytes.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/telegrams/Hydris+Industrial+Output+Telegrams+PLCAligned+v2+-+High+Byte+and+Low+Byte+-+09112026.zip">
-        Hydris Industrial Output Telegrams PLCAligned v2 - High Byte and Low Byte - 09112026.zip
+      <strong>Hydris / HydroVAS PLCAligned v2 Output Telegrams — Customer Reference:</strong><br>
+      Companion reference for the PLCAligned v2 telegram download. Covers Low Byte vs. High Byte selection, the complete byte layout,<br>
+      DATE/TIME alignment, v1 compatibility, EtherNet/IP sizing, and recommended Rockwell/Siemens use.<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/Hydris_PLCAligned_Output_Telegrams_v2_Customer_Reference.pdf">
+        Hydris_PLCAligned_Output_Telegrams_v2_Customer_Reference.pdf
       </a>
     </div>
   </li>
