@@ -563,17 +563,6 @@ search:
 
   <li>
     <div>
-      <strong>Hydris / HydroVAS Rockwell AOI Integration Guide:</strong><br>
-      Customer and field guide for installing, configuring, and commissioning the Hydris Rockwell AOI package.<br>
-      Covers the Anybus M40 EDS, EtherNet/IP module setup, AOI import and connections, PLCAligned v2 telegram requirements, example routines, commissioning, and troubleshooting.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/HEN_Hydris_Rockwell_AOI_Integration_Guide.pdf">
-        HEN_Hydris_Rockwell_AOI_Integration_Guide.pdf
-      </a>
-    </div>
-  </li>
-
-  <li>
-    <div>
       <strong>Hydris / HydroVAS Rockwell AOI Integration Package v3.8 / v1.0:</strong><br>
       Complete CompactLogix/ControlLogix EtherNet/IP integration package for Hydris/HydroVAS v3.7+. Includes the protected read and write AOIs,<br>
       validated example routines, PLCAligned v2 telegrams, Anybus M40 EDS, and customer integration/reference documentation. Validated in RSLogix 5000 v20.05 and Studio 5000 v34.<br>
