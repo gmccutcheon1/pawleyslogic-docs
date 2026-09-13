@@ -561,35 +561,26 @@ search:
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
 
 
+
   <li>
     <div>
-      <strong>Hydris / HydroVAS Rockwell AOI Integration Package v3.8 / v1.0:</strong><br>
-      Complete CompactLogix/ControlLogix EtherNet/IP integration package for Hydris/HydroVAS v3.7+. Includes the protected read and write AOIs,<br>
-      validated example routines, PLCAligned v2 telegrams, Anybus M40 EDS, and customer integration/reference documentation. Validated in RSLogix 5000 v20.05 and Studio 5000 v34.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/aoi-udts/HEN_Hydris_Rockwell_AOIs_v3.8-v1.0_2026-09-13.zip">
-        HEN_Hydris_Rockwell_AOIs_v3.8-v1.0_2026-09-13.zip
+      <strong>HEN_HydrisParser_Hyd2PLC v3.2 Short Description.pdf:</strong><br>
+      List of fields .<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/HEN_HydrisParser_Hyd2PLC+v3.2+Short+Description.pdf">
+        HEN_HydrisParser_Hyd2PLC v3.2 Short Description.pdf
       </a>
     </div>
   </li>
 
-  <li>
-    <div>
-      <strong>HEN_HydrisParser_Hyd2PLC v3.8:</strong><br>
-      Rockwell Add-On Instruction for parsing the 244-byte Hydris/HydroVAS-to-PLC EtherNet/IP image using PLCAligned Low Byte v1/v2.<br>
-      Provides decoded measurements, state/error/status data, pneumatic communication health, automation-ready signals, and convenience strings. PLCAligned v2 is preferred.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/aoi-udts/HEN_HydrisParser_Hyd2PLC_v3.8.zip">
-        HEN_HydrisParser_Hyd2PLC_v3.8.zip
-      </a>
-    </div>
-  </li>
+
 
   <li>
     <div>
-      <strong>HEN_HydrisWrite_PLC2Hyd v1.0:</strong><br>
-      Rockwell Add-On Instruction for the Hydris/HydroVAS v3.7+ PLC-to-Hydris 64-byte input telegram. Handles Heat Number, K/f factor,<br>
-      Start Measurement, Stop Measurement, required Level 2 flags, command sequencing, and communications-fault recovery.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/aoi-udts/HEN_HydrisWrite_PLC2Hyd_v1.0.zip">
-        HEN_HydrisWrite_PLC2Hyd_v1.0.zip
+      <strong>HEN_HydrisParser_Hyd2PLC_AOI:</strong><br>
+      Studio 5000 v20 Add-On Instruction (L5X) for Hydris/HydroVAS using “Industrial Output Telegram PLCAligned – Low Byte v1” (Hydris→PLC).<br>
+	  Direct overlay/COP into a matching UDT with clean status/state/error/result tags and derived BOOLs for robot/automation logic.<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/aoi-udts/HEN_HydrisParser_Hyd2PLC_AOI_v3.3.zip">
+        HEN_HydrisParser_Hyd2PLC_AOI_v3.3.zip
       </a>
     </div>
   </li>
