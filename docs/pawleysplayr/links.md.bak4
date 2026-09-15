@@ -1035,38 +1035,6 @@ search:
 ---
 
 
-## Remote Display Related
-
-### Configuration Forms
-
-<ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
-
-  <li>
-    <div>
-      <strong>Remote Display Customer Configuration Form (Fillable PDF):</strong><br>
-      Fillable two-page record for documenting site-specific settings for RD251, RD252, RD231, and RD232 displays. <br>
-      Covers configuration menu Sections 1–6 and includes fields for customer, location, display area, model, serial number, date, individual settings, and notes.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/general/Remote_Display_Customer_Configuration_Form.pdf">
-        Remote_Display_Customer_Configuration_Form.pdf
-      </a>
-    </div>
-  </li>
-
-  <li>
-    <div>
-      <strong>Remote Display Customer Configuration Form – Completed Example:</strong><br>
-      Completed sample showing how to document and save a customer-specific Remote Display configuration using the fillable form.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/general/Remote_Display_Customer_Configuration_Form_Example.pdf">
-        Remote_Display_Customer_Configuration_Form_Example.pdf
-      </a>
-    </div>
-  </li>
-
-</ul>
-
----
-
-
 ## EDS/GSDML Related
 
 ### Allen-Bradley
