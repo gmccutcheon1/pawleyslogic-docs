@@ -563,33 +563,33 @@ search:
 
   <li>
     <div>
-      <strong>Hydris / HydroVAS Rockwell AOI Integration Guide v4.0 / v1.0:</strong><br>
-      Current customer and field guide for installing, configuring, and commissioning the Hydris Rockwell Parser v4.0 and Writer v1.0 AOIs.<br>
+      <strong>Hydris / HydroVAS Rockwell AOI Integration Guide:</strong><br>
+      Customer and field guide for installing, configuring, and commissioning the Hydris Rockwell AOI package.<br>
       Covers the Anybus M40 EDS, EtherNet/IP module setup, AOI import and connections, PLCAligned v2 telegram requirements, example routines, commissioning, and troubleshooting.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/HEN_Hydris_Rockwell_AOI_Integration_Guide_v4.0-v1.0.pdf">
-        HEN_Hydris_Rockwell_AOI_Integration_Guide_v4.0-v1.0.pdf
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/HEN_Hydris_Rockwell_AOI_Integration_Guide.pdf">
+        HEN_Hydris_Rockwell_AOI_Integration_Guide.pdf
       </a>
     </div>
   </li>
 
   <li>
     <div>
-      <strong>Hydris / HydroVAS Rockwell AOI Integration Package v4.0 / v1.0:</strong><br>
-      Complete CompactLogix/ControlLogix EtherNet/IP integration package for Hydris/HydroVAS v3.7+. Includes Parser v4.0 and Writer v1.0 AOIs,<br>
-      validated example routines, PLCAligned v2 telegrams, Anybus M40 EDS, and current customer integration/reference documentation. Validated in RSLogix 5000 v20.05 and Studio 5000 v34 with Hydris/HydroVAS hardware regression.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/aoi-udts/HEN_Hydris_Rockwell_AOIs_v4.0-v1.0_2026-09-16.zip">
-        HEN_Hydris_Rockwell_AOIs_v4.0-v1.0_2026-09-16.zip
+      <strong>Hydris / HydroVAS Rockwell AOI Integration Package v3.8 / v1.0:</strong><br>
+      Complete CompactLogix/ControlLogix EtherNet/IP integration package for Hydris/HydroVAS v3.7+. Includes the protected read and write AOIs,<br>
+      validated example routines, PLCAligned v2 telegrams, Anybus M40 EDS, and customer integration/reference documentation. Validated in RSLogix 5000 v20.05 and Studio 5000 v34.<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/aoi-udts/HEN_Hydris_Rockwell_AOIs_v3.8-v1.0_2026-09-13.zip">
+        HEN_Hydris_Rockwell_AOIs_v3.8-v1.0_2026-09-13.zip
       </a>
     </div>
   </li>
 
   <li>
     <div>
-      <strong>HEN_HydrisParser_Hyd2PLC v4.0:</strong><br>
+      <strong>HEN_HydrisParser_Hyd2PLC v3.8:</strong><br>
       Rockwell Add-On Instruction for parsing the 244-byte Hydris/HydroVAS-to-PLC EtherNet/IP image using PLCAligned Low Byte v1/v2.<br>
-      Provides standardized Parsed/Derived data, decoded measurement/state/error status, communication health, automation-ready signals, and derived HLive with validated transient-NaN handling. PLCAligned v2 is preferred.<br>
-      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/aoi-udts/HEN_HydrisParser_Hyd2PLC_v4.0.zip">
-        HEN_HydrisParser_Hyd2PLC_v4.0.zip
+      Provides decoded measurements, state/error/status data, pneumatic communication health, automation-ready signals, and convenience strings. PLCAligned v2 is preferred.<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/hyd/aoi-udts/HEN_HydrisParser_Hyd2PLC_v3.8.zip">
+        HEN_HydrisParser_Hyd2PLC_v3.8.zip
       </a>
     </div>
   </li>
