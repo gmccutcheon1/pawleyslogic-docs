@@ -691,6 +691,26 @@ search:
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
 
 
+  <li>
+    <div>
+      <strong>CasTemp Wireless E4 (Windows) — Rockwell Parser and Writer AOIs (Parser v1.5 / Writer v1.9):</strong><br>
+      Studio 5000 v34 EtherNet/IP AOIs for CompactLogix/ControlLogix. The Parser decodes the configured 128-byte CasTemp input
+      image into measurements and diagnostic/status tags; the Writer sends ReadyToCast, Heat Number, Grade Number,
+      Superheat Limit, and Ladle Empty Time. Both AOI exports include their required UDT dependencies.<br>
+      <strong>IMPORTANT — Updated CasTemp output telegram required:</strong> The Parser requires a telegram containing
+      <strong>both <code>ErrorState</code> and <code>ErrorPresent</code></strong>, in that order, after <code>ModuleID</code>.
+      <code>ErrorState</code> occupies four bytes (input data indexes 31–34), followed by the one-byte
+      <code>ErrorPresent</code> (index 35). The remaining telegram fields must also match the AOI's configured field order.
+      <strong>Older telegrams lacking either field are not compatible.</strong><br>
+      Imported, verified, and tested with actual CompactLogix/CasTemp hardware using Studio 5000 v34.
+      The Anybus M30 EDS file is downloadable separately under EDS/GSDML Related below.<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/ctw/HEN_CasTemp_AOIs_v34.zip" download>
+        HEN_CasTemp_AOIs_v34.zip
+      </a>
+    </div>
+  </li>
+
+
  <li>
     <div>
       <strong>CasTemp, CasTemp Wireless and CasTemp Superheat manual v2.1:</strong><br>
