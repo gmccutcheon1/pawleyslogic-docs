@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#112338">
+  <meta name="description" content="Offline-capable daily instrument password lookup for authorized Pawleys Logic users.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https:; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <link rel="icon" type="image/svg+xml" href="./icons/app.svg">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Daily Passwords | Pawleys Logic</title>
+  <script defer src="./config.js"></script>
+  <script defer src="./app.js"></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="brand" aria-label="Pawleys Logic">
+        <span class="brand-mark">PL<span class="brand-dot">.</span></span>
+        <span class="brand-copy">PAWLEYS LOGIC <span class="brand-separator">/</span> FIELD TOOLS</span>
+      </div>
+      <div id="connectionBadge" class="connection-badge" aria-live="polite"><span class="status-dot"></span><span>Checking</span></div>
+    </header>
+
+    <main class="main">
+      <section class="hero" aria-label="Application title">
+        <span class="eyebrow">INSTRUMENT SUPPORT</span>
+        <h1>Daily password<br><span>lookup.</span></h1>
+        <p>Find the access password for an instrument's date — even when you're offline at the mill.</p>
+      </section>
+
+      <section id="unlockPanel" class="panel" aria-labelledby="loginTitle">
+        <div class="step-heading"><span class="step-num" aria-hidden="true">↗</span><div><h2 id="loginTitle">Enter your access code</h2><p>Your code automatically opens the instruments you're authorized to use.</p></div></div>
+        <form id="unlockForm" autocomplete="off">
+          <label for="passphrase" class="field-label">Access code</label>
+          <div class="input-wrap">
+            <input id="passphrase" name="passphrase" type="password" placeholder="Enter access code" required autocomplete="off" spellcheck="false" autocapitalize="none" autocorrect="off">
+            <button type="button" id="togglePassphrase" class="icon-button show-button" aria-label="Show access code">Show</button>
+          </div>
+          <label class="remember-option" for="rememberDevice">
+            <input id="rememberDevice" type="checkbox">
+            <span><strong>Remember this device</strong><small>Open the lookup without entering your code next time. Only use on your own phone or computer.</small></span>
+          </label>
+          <button id="unlockButton" class="primary-button" type="submit"><span id="unlockButtonText">Open password lookup</span><span class="arrow-icon" aria-hidden="true">→</span></button>
+        </form>
+        <button id="continueButton" class="secondary-wide" type="button" hidden>Continue with saved access →</button>
+        <p id="loginNotice" class="status-message" role="status" aria-live="polite" hidden></p>
+        <div class="trust-note"><span class="trust-shield" aria-hidden="true">◇</span><span>Your access code is never sent to a server. Remembering this device saves a protected browser key that can reopen the passwords, not the code itself.</span></div>
+        <p id="cachedMessage" class="group-offline" aria-live="polite"></p>
+      </section>
+
+      <section id="resultsPanel" class="panel results-panel" aria-labelledby="resultsTitle" hidden>
+        <div class="results-head">
+          <div><span class="overline">AVAILABLE INSTRUMENTS</span><h2 id="resultsTitle">Hydris &amp; SLS</h2></div>
+          <details class="settings-menu" id="settingsMenu">
+            <summary aria-label="Access options"><span class="gear" aria-hidden="true">⚙</span> Options</summary>
+            <div class="settings-popover">
+              <button id="addGroupButton" type="button">+ Add another access code</button>
+              <label class="settings-remember" for="rememberCurrentGroup">
+                <input id="rememberCurrentGroup" type="checkbox">
+                <span id="rememberGroupLabel">Remember this group on this device</span>
+              </label>
+              <button id="hidePasswordsButton" type="button">Hide passwords</button>
+              <button id="forgetDeviceButton" type="button" class="danger-action">Forget this device &amp; offline data</button>
+            </div>
+          </details>
+        </div>
+        <div id="groupTabs" class="group-tabs" role="tablist" aria-label="Authorized instruments" hidden></div>
+        <p id="resultNotice" class="status-message" role="status" aria-live="polite" hidden></p>
+        <div class="field-block">
+          <div class="date-label-row"><label for="instrumentDate" class="field-label">Instrument date</label><span class="today-label" id="todayNote">Defaults to today</span></div>
+          <p class="input-help">If the instrument clock is wrong, select the date shown on the instrument.</p>
+          <div class="date-controls">
+            <button id="previousDate" class="date-step" type="button" aria-label="Previous day">←</button>
+            <input id="instrumentDate" type="date" aria-label="Instrument date">
+            <button id="nextDate" class="date-step" type="button" aria-label="Next day">→</button>
+          </div>
+          <button id="todayButton" class="today-button" type="button">Jump to today</button>
+        </div>
+        <div class="result-divider"><h3>Passwords for this date</h3><span id="displayDateShort" class="result-date-short"></span></div>
+        <div id="passwordCards" class="password-cards" aria-live="polite"></div>
+        <div id="dataDetails" class="data-details" aria-live="polite"></div>
+      </section>
+
+      <p class="privacy-footer">For authorized use · Passwords are based on the instrument's configured date.</p>
+    </main>
+    <footer class="bottom-bar"><span>PAWLEYS LOGIC</span><span>FIELD UTILITIES <span class="footer-orange">●</span></span></footer>
+  </div>
+
+  <dialog id="addGroupDialog" class="access-dialog" aria-labelledby="addGroupTitle">
+    <div class="dialog-heading"><h2 id="addGroupTitle">Add another access code</h2><button id="closeAddDialog" type="button" class="dialog-close" aria-label="Close">×</button></div>
+    <p class="dialog-help">Enter the code for your other instrument group. Your existing access stays available.</p>
+    <form id="addGroupForm" autocomplete="off">
+      <label for="addPassphrase" class="field-label">Additional access code</label>
+      <div class="input-wrap">
+        <input id="addPassphrase" name="addPassphrase" type="password" required placeholder="Enter access code" autocomplete="off" spellcheck="false" autocapitalize="none" autocorrect="off">
+        <button id="toggleAddPassphrase" type="button" class="icon-button show-button" aria-label="Show access code">Show</button>
+      </div>
+      <label class="remember-option" for="addRememberDevice">
+        <input id="addRememberDevice" type="checkbox">
+        <span><strong>Remember this device for this group</strong><small>Skip entering this code on future visits.</small></span>
+      </label>
+      <p id="addNotice" class="status-message" role="status" aria-live="polite" hidden></p>
+      <button id="addCodeButton" class="primary-button" type="submit">Add access</button>
+    </form>
+  </dialog>
+</body>
+</html>
