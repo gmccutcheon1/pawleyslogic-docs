@@ -881,6 +881,29 @@ search:
 ### CTW E5 AOI
 <ul style="list-style-type: disc; margin-left: 2em; font-size: 1.05em;">
 
+  <li>
+    <div>
+      <strong>HEN_CTWE5Parser — CasTemp Wireless E5 Rockwell Parser AOI (Rev 1.3, Logix v34):</strong><br>
+      Studio 5000 EtherNet/IP AOI for decoding E5 Output Telegram #3 (E5 → PLC) into measurement, pairing, status, and diagnostic tags. Required UDTs are included in the L5X export.<br>
+      <strong>E5 settings:</strong> Output Telegram <code>3</code>, Input Telegram <code>7</code>; instrument Input <code>64 bytes</code>, Output <code>240 bytes</code> (PLC Input <code>240 SINT</code>, Output <code>64 SINT</code>).<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/ctw5/AOIs/HEN_CTWE5Parser_AOI_LogixV34_Rev1.3.zip" download>
+        HEN_CTWE5Parser_AOI_LogixV34_Rev1.3.zip
+      </a>
+    </div>
+  </li>
+
+  <li>
+    <div>
+      <strong>HEN_CTWE5Writer — CasTemp Wireless E5 Rockwell Writer AOI (Rev 1.2, Logix v34):</strong><br>
+      Studio 5000 EtherNet/IP AOI for building E5 Input Telegram #7 (PLC → E5): Heat Number, Grade, Ladle Empty Time, Superheat Limit, and Ready-to-Cast. Required UDT is included in the L5X export.<br>
+      <strong>E5 settings:</strong> Output Telegram <code>3</code>, Input Telegram <code>7</code>; instrument Input <code>64 bytes</code>, Output <code>240 bytes</code> (PLC Input <code>240 SINT</code>, Output <code>64 SINT</code>).<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/ctw5/AOIs/HEN_CTWE5Writer_AOI_LogixV34_Rev1.2.zip" download>
+        HEN_CTWE5Writer_AOI_LogixV34_Rev1.2.zip
+      </a>
+    </div>
+  </li>
+
+
 
 
   <li>
