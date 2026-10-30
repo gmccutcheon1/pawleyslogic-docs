@@ -736,6 +736,26 @@ search:
 
   <li>
     <div>
+      <strong>CasTemp v7.5.0 Remote Software Install:</strong><br>
+      CasTemp v7.5.0 Remote Software Install<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/ctw/castemp_v7.5.0_Remote.zip">
+        castemp_v7.5.0_Remote.zip
+      </a>
+    </div>
+  </li>
+
+  <li>
+    <div>
+      <strong>CasTemp v7.5.0 Instrument Software Install:</strong><br>
+      CasTemp v7.5.0 Instrument Software Install<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/ctw/castemp_v7.5.0_Instrument.zip">
+        castemp_v7.5.0_Instrument.zip
+      </a>
+    </div>
+  </li>
+
+  <li>
+    <div>
       <strong>CasTemp / CasTemp Wireless — Licensing (PDF):</strong><br>
       How to generate the Hardware ID, submit the approval form, receive the .lic file, and activate the license <br>
 	  on the instrument via License → Update (includes version requirement and typical status messages.<br>  
