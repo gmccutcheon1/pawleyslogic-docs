@@ -711,6 +711,20 @@ search:
   </li>
 
 
+  <li>
+    <div>
+      <strong>CasTemp Wireless E4 (Windows) — EtherNet/IP Instrument Setup for Rockwell AOIs (PDF):</strong><br>
+      Screenshot-based, click-by-click field guide for configuring the CTW E4 Windows instrument for the current CompactLogix/ControlLogix AOIs.<br>
+      Covers creating the required 12-field output telegram with <code>ErrorState</code> followed by <code>ErrorPresent</code>, configuring the
+      EtherNet/IP device with required <code>COM2</code> and <code>Use for input</code> settings, and linking the telegram using <code>On demand</code> operation.<br>
+      Includes saving, restarting, and checking the CTW configuration. Names and IP addresses shown are examples; use site-approved values.<br>
+      <a href="https://pawleyslogic-downloads.s3.us-east-2.amazonaws.com/ctw/CTW_E4_EtherNetIP_Instrument_Setup.pdf">
+        CTW_E4_EtherNetIP_Instrument_Setup.pdf
+      </a>
+    </div>
+  </li>
+
+
  <li>
     <div>
       <strong>CasTemp, CasTemp Wireless and CasTemp Superheat manual v2.1:</strong><br>
